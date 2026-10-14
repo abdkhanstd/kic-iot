@@ -162,6 +162,56 @@ KIC_TOOLS=/path/to/tools python firmware/pil.py --scenarios clean a1_telemetry s
 KIC_TOOLS=/path/to/tools python firmware/pil_baselines.py --out pil_base/light.json
 ```
 
+## Acknowledgements and third-party resources
+
+This work builds on the following tools, models, data and methods. We thank their authors and maintainers.
+Each is used under its own license, and none of their data or binaries are redistributed here.
+
+**Simulators and test systems**
+
+* [pandapower](https://www.pandapower.org/) ([GitHub](https://github.com/e2nIEE/pandapower)), the power-system
+  modelling library behind the feeder and its reference Newton-Raphson power flow. L. Thurner et al.,
+  "pandapower: an open-source Python tool for convenient modeling, analysis, and optimization of electric power
+  systems," *IEEE Transactions on Power Systems*, 2018.
+* The IEEE 33-bus distribution test feeder, loaded as `pandapower.networks.case33bw`. M. E. Baran and F. F. Wu,
+  "Network reconfiguration in distribution systems for loss reduction and load balancing," *IEEE Transactions on
+  Power Delivery*, 1989.
+* The mobile-edge-computing node follows the offloading and dynamic-voltage-scaling models of Y. Wang et al.,
+  "Mobile-edge computing: Partial computation offloading using dynamic voltage scaling," *IEEE Transactions on
+  Communications*, 2016.
+* [Renode](https://renode.io) ([GitHub](https://github.com/renode/renode)) by Antmicro, which emulates the five
+  microcontrollers.
+* The [xPack GNU Arm Embedded GCC](https://xpack-dev-tools.github.io/arm-none-eabi-gcc-xpack/) and
+  [xPack GNU RISC-V Embedded GCC](https://xpack-dev-tools.github.io/riscv-none-elf-gcc-xpack/) toolchains.
+
+**Datasets and models**
+
+* N-BaIoT, from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/442/detection+of+iot+botnet+attacks+n+baiot).
+  Y. Meidan et al., "N-BaIoT: Network-based detection of IoT botnet attacks using deep autoencoders," *IEEE
+  Pervasive Computing*, 2018.
+* [Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct) and
+  [Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct) by the Qwen team, Alibaba Cloud,
+  also distributed through [ModelScope](https://modelscope.cn).
+
+**Methods implemented from the literature**
+
+* NOTEARS structure learning, re-implemented in `src/causal_discovery/discover.py`. X. Zheng et al., "DAGs with
+  NO TEARS: Continuous optimization for structure learning," NeurIPS 2018
+  ([original code](https://github.com/xunzheng/notears)).
+* Anytime-valid confidence sequences. S. R. Howard et al., "Time-uniform, nonparametric, nonasymptotic confidence
+  sequences," *The Annals of Statistics*, 2021, and I. Waudby-Smith and A. Ramdas, "Estimating means of bounded
+  random variables by betting," *Journal of the Royal Statistical Society Series B*, 2024.
+
+**Software libraries**
+
+[NumPy](https://numpy.org), [SciPy](https://scipy.org), [pandas](https://pandas.pydata.org),
+[NetworkX](https://networkx.org), [scikit-learn](https://scikit-learn.org), [SymPy](https://www.sympy.org),
+[causal-learn](https://github.com/py-why/causal-learn), [PyTorch](https://pytorch.org),
+[Hugging Face Transformers](https://github.com/huggingface/transformers) and
+[PEFT](https://github.com/huggingface/peft), [ModelScope](https://github.com/modelscope/modelscope),
+[Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3),
+[Gymnasium](https://github.com/Farama-Foundation/Gymnasium) and [cryptography](https://cryptography.io).
+
 ## Citation
 
 If you use this code, please cite the paper. The full reference will be added here on publication.
