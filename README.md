@@ -1,7 +1,6 @@
-# KIC-IoT: Causal Authorization of Untrusted Setpoint Changes
+# KIC-IoT: Causal Authorization of Untrusted IoT Setpoint Changes under Telemetry Corruption
 
-Code and result data for the paper *KIC-IoT: Causal Authorization of Untrusted Setpoint Changes in
-Autonomous IoT Systems under Telemetry Corruption*.
+Code and result data for the paper *KIC-IoT: Causal Authorization of Untrusted IoT Setpoint Changes under Telemetry Corruption*.
 
 Code by **abdkhan**.
 
