@@ -1,0 +1,39 @@
+{
+ "boards": {
+  "nrf52840": {
+   "obsadj|backdoor_omit": {
+    "board": "Nordic nRF52840",
+    "core": "Cortex-M4F",
+    "mhz": 64,
+    "gate": "obsadj",
+    "ram_limit": 262144,
+    "flash_limit": 1048576,
+    "runs": true,
+    "images": 1,
+    "done": true,
+    "mismatch": 0,
+    "ticks_executed": 799,
+    "stack_bytes": 880,
+    "flash_bytes": 296240,
+    "hist_bytes": 288000,
+    "live_bytes": 96000,
+    "ram_static_bytes": 97248,
+    "ram_bytes": 98128,
+    "fits": true,
+    "insn_median": 44333908.0,
+    "insn_p99": 46114677.52,
+    "insn_max": 46151203.0,
+    "us_median_cpi1": 692717.3125,
+    "us_max_cpi1": 721112.546875,
+    "us_median_cpi2": 1385434.625,
+    "us_max_cpi2": 1442225.09375
+   }
+  }
+ },
+ "host": {
+  "obsadj|backdoor_omit": {
+   "host": "ticks 800 mismatch 0 first 0",
+   "ecost": 0.41767672712256954
+  }
+ }
+}

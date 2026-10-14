@@ -1,0 +1,8 @@
+{
+  "local_graph_f1": 0.35294117647058826,
+  "local_graph_edges": 26,
+  "fused_graph_f1": 0.45614035087719296,
+  "fused_graph_edges": 32,
+  "target_site": "cluster_C_low_sample",
+  "target_site_n_samples": 800
+}

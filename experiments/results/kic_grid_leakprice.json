@@ -1,0 +1,59 @@
+{
+ "agg": {
+  "learned|None": {
+   "ecost": 1.002119887516074,
+   "moves": 1783,
+   "harmful": 0,
+   "runs_licensing": 12,
+   "first_median": 229.5,
+   "eta": null,
+   "widening": 0.0
+  },
+  "learned|19": {
+   "ecost": 1.0055886155795934,
+   "moves": 1672,
+   "harmful": 0,
+   "runs_licensing": 12,
+   "first_median": 242.0,
+   "eta": 0.007470113590731353,
+   "widening": 0.0403386133899493
+  },
+  "learned|24": {
+   "ecost": 1.0234366997093496,
+   "moves": 1115,
+   "harmful": 0,
+   "runs_licensing": 11,
+   "first_median": 260.0,
+   "eta": 0.04768975366356876,
+   "widening": 0.25752466978327127
+  },
+  "learned|5": {
+   "ecost": 1.0560830665225112,
+   "moves": 0,
+   "harmful": 0,
+   "runs_licensing": 0,
+   "first_median": null,
+   "eta": 0.2193464731940069,
+   "widening": 1.184470955247637
+  },
+  "learned|16": {
+   "ecost": 1.0560830665225112,
+   "moves": 0,
+   "harmful": 0,
+   "runs_licensing": 0,
+   "first_median": null,
+   "eta": 0.9257878133823976,
+   "widening": 4.999254192264946
+  }
+ },
+ "config": {
+  "seeds": 15,
+  "procs": 60,
+  "buses": [
+   19,
+   24,
+   5,
+   16
+  ]
+ }
+}

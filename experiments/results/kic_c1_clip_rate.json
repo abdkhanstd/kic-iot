@@ -1,0 +1,27 @@
+{
+ "scm (level S)": {
+  "readings": 72000,
+  "bound": 198,
+  "rate": 0.00275
+ },
+ "scm (level T)": {
+  "readings": 72000,
+  "bound": 667,
+  "rate": 0.00926388888888889
+ },
+ "mec (level S)": {
+  "readings": 48000,
+  "bound": 0,
+  "rate": 0.0
+ },
+ "mec (level C)": {
+  "readings": 48000,
+  "bound": 0,
+  "rate": 0.0
+ },
+ "feeder on D_f (level T)": {
+  "readings": 12000,
+  "bound": 0,
+  "rate": 0.0
+ }
+}

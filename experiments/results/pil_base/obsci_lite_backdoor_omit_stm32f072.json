@@ -1,0 +1,39 @@
+{
+ "boards": {
+  "stm32f072": {
+   "obsci_lite|backdoor_omit": {
+    "board": "STM32F072",
+    "core": "Cortex-M0",
+    "mhz": 48,
+    "gate": "obsci_lite",
+    "ram_limit": 16384,
+    "flash_limit": 131072,
+    "runs": true,
+    "images": 1,
+    "done": true,
+    "mismatch": 0,
+    "ticks_executed": 799,
+    "stack_bytes": 964,
+    "flash_bytes": 43376,
+    "hist_bytes": 28800,
+    "live_bytes": 4800,
+    "ram_static_bytes": 6048,
+    "ram_bytes": 7012,
+    "fits": true,
+    "insn_median": 14383976.0,
+    "insn_p99": 14388613.38,
+    "insn_max": 14389045.0,
+    "us_median_cpi1": 299666.1666666667,
+    "us_max_cpi1": 299771.7708333333,
+    "us_median_cpi2": 599332.3333333334,
+    "us_max_cpi2": 599543.5416666666
+   }
+  }
+ },
+ "host": {
+  "obsci_lite|backdoor_omit": {
+   "host": "ticks 800 mismatch 0 first 0",
+   "ecost": 0.41767672712256954
+  }
+ }
+}

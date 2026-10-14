@@ -1,0 +1,52 @@
+{
+  "PC": {
+    "shd": 24,
+    "sid": 54,
+    "precision": 0.44,
+    "recall": 0.44,
+    "f1": 0.44,
+    "n_true_edges": 25,
+    "n_est_edges": 25,
+    "runtime_sec": 1.8
+  },
+  "GES": {
+    "shd": 50,
+    "sid": 55,
+    "precision": 0.21666666666666667,
+    "recall": 0.52,
+    "f1": 0.3058823529411765,
+    "n_true_edges": 25,
+    "n_est_edges": 60,
+    "runtime_sec": 7.85
+  },
+  "DirectLiNGAM": {
+    "shd": 29,
+    "sid": 38,
+    "precision": 0.3902439024390244,
+    "recall": 0.64,
+    "f1": 0.48484848484848486,
+    "n_true_edges": 25,
+    "n_est_edges": 41,
+    "runtime_sec": 5.93
+  },
+  "ICA-LiNGAM": {
+    "shd": 29,
+    "sid": 35,
+    "precision": 0.4473684210526316,
+    "recall": 0.68,
+    "f1": 0.5396825396825397,
+    "n_true_edges": 25,
+    "n_est_edges": 38,
+    "runtime_sec": 6.26
+  },
+  "NOTEARS (ours)": {
+    "shd": 18,
+    "sid": 42,
+    "precision": 0.6086956521739131,
+    "recall": 0.56,
+    "f1": 0.5833333333333334,
+    "n_true_edges": 25,
+    "n_est_edges": 23,
+    "runtime_sec": 2.84
+  }
+}

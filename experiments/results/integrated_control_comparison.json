@@ -1,0 +1,69 @@
+{
+  "static": {
+    "reward": {
+      "mean": -1.0695205128621665,
+      "std": 0.03965151767743019
+    },
+    "latency": {
+      "mean": 0.7451496287643669,
+      "std": 0.008996608659244384
+    },
+    "energy": {
+      "mean": 0.8027353991565851,
+      "std": 0.0023045985225357175
+    },
+    "packet_loss": {
+      "mean": 0.42089966203884,
+      "std": 0.018843627249048513
+    },
+    "throughput": {
+      "mean": 0.5216305996063989,
+      "std": 0.013304828637401315
+    }
+  },
+  "reactive_pid": {
+    "reward": {
+      "mean": -1.025848515384943,
+      "std": 0.030045207415546754
+    },
+    "latency": {
+      "mean": 0.7292477855985497,
+      "std": 0.006007823950278663
+    },
+    "energy": {
+      "mean": 0.8033536639763481,
+      "std": 0.002351119712682881
+    },
+    "packet_loss": {
+      "mean": 0.398466106117852,
+      "std": 0.013844811627110648
+    },
+    "throughput": {
+      "mean": 0.5290089669692633,
+      "std": 0.011293562481694839
+    }
+  },
+  "ppo": {
+    "reward": {
+      "mean": -0.649450696164299,
+      "std": 0.008843970692782558
+    },
+    "latency": {
+      "mean": 0.5575165471404264,
+      "std": 0.0042859315710398254
+    },
+    "energy": {
+      "mean": 0.7567280553885078,
+      "std": 0.0007569828450039792
+    },
+    "packet_loss": {
+      "mean": 0.19343357597603691,
+      "std": 0.0032971174325394895
+    },
+    "throughput": {
+      "mean": 0.4904077342605902,
+      "std": 0.003076968688165919
+    }
+  },
+  "_note": "llm_no_verifier/llm_with_verifier removed: they predate the parse_claims regex fix that made sign-checking active. See verified_closedloop_control.json for the post-fix re-run. PPO/static/reactive_pid baselines below are unaffected (no verifier)."
+}

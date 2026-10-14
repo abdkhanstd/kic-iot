@@ -1,0 +1,26 @@
+{
+ "boards": {
+  "stm32f072": {
+   "obsci|spoof_blind": {
+    "board": "STM32F072",
+    "core": "Cortex-M0",
+    "mhz": 48,
+    "gate": "obsci",
+    "ram_limit": 16384,
+    "flash_limit": 131072,
+    "runs": false,
+    "fits": false,
+    "error": [
+     "region `FLASH' overflowed by 217104 bytes",
+     "region `RAM' overflowed by 80864 bytes"
+    ]
+   }
+  }
+ },
+ "host": {
+  "obsci|spoof_blind": {
+   "host": "ticks 800 mismatch 0 first 0",
+   "ecost": 0.41767672712256954
+  }
+ }
+}

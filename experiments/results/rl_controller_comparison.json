@@ -1,0 +1,112 @@
+{
+  "random": {
+    "mean_episode_reward": -611.9230859199209,
+    "latency": 0.7426013742988894,
+    "energy": 0.786795821527131,
+    "packet_loss": 0.4410528986013607,
+    "throughput": 0.5066828181855599
+  },
+  "static": {
+    "mean_episode_reward": -604.5689126671065,
+    "latency": 0.7446104866907828,
+    "energy": 0.8029354852913648,
+    "packet_loss": 0.42362820339023155,
+    "throughput": 0.5186260605638215
+  },
+  "reactive_pid": {
+    "mean_episode_reward": -632.8168648467042,
+    "latency": 0.7685950153777803,
+    "energy": 0.7682612439108494,
+    "packet_loss": 0.45070360661820125,
+    "throughput": 0.4855132156825119
+  },
+  "ppo": {
+    "mean_episode_reward": -388.3945164218866,
+    "latency": 0.5519905502800821,
+    "energy": 0.7556909160787735,
+    "packet_loss": 0.18963291333076474,
+    "throughput": 0.4881816974354892
+  },
+  "ppo_convergence": [
+    {
+      "timesteps": 10000,
+      "mean_episode_reward": -229.3183505289538,
+      "latency": 0.558332195884361,
+      "energy": 0.7559789906061868,
+      "packet_loss": 0.19025151182527142,
+      "throughput": 0.48941605897959256
+    },
+    {
+      "timesteps": 20000,
+      "mean_episode_reward": -229.29448855495158,
+      "latency": 0.5582355948018322,
+      "energy": 0.7561244907955137,
+      "packet_loss": 0.19019625928045794,
+      "throughput": 0.4894733247438107
+    },
+    {
+      "timesteps": 30000,
+      "mean_episode_reward": -229.29448855495158,
+      "latency": 0.5582355948018322,
+      "energy": 0.7561244907955137,
+      "packet_loss": 0.19019625928045794,
+      "throughput": 0.4894733247438107
+    },
+    {
+      "timesteps": 40000,
+      "mean_episode_reward": -229.29448855495158,
+      "latency": 0.5582355948018322,
+      "energy": 0.7561244907955137,
+      "packet_loss": 0.19019625928045794,
+      "throughput": 0.4894733247438107
+    },
+    {
+      "timesteps": 50000,
+      "mean_episode_reward": -229.29448855495158,
+      "latency": 0.5582355948018322,
+      "energy": 0.7561244907955137,
+      "packet_loss": 0.19019625928045794,
+      "throughput": 0.4894733247438107
+    },
+    {
+      "timesteps": 60000,
+      "mean_episode_reward": -229.29448855495158,
+      "latency": 0.5582355948018322,
+      "energy": 0.7561244907955137,
+      "packet_loss": 0.19019625928045794,
+      "throughput": 0.4894733247438107
+    },
+    {
+      "timesteps": 70000,
+      "mean_episode_reward": -229.29448855495158,
+      "latency": 0.5582355948018322,
+      "energy": 0.7561244907955137,
+      "packet_loss": 0.19019625928045794,
+      "throughput": 0.4894733247438107
+    },
+    {
+      "timesteps": 80000,
+      "mean_episode_reward": -229.29448855495158,
+      "latency": 0.5582355948018322,
+      "energy": 0.7561244907955137,
+      "packet_loss": 0.19019625928045794,
+      "throughput": 0.4894733247438107
+    },
+    {
+      "timesteps": 90000,
+      "mean_episode_reward": -229.29448855495158,
+      "latency": 0.5582355948018322,
+      "energy": 0.7561244907955137,
+      "packet_loss": 0.19019625928045794,
+      "throughput": 0.4894733247438107
+    },
+    {
+      "timesteps": 100000,
+      "mean_episode_reward": -229.29448855495158,
+      "latency": 0.5582355948018322,
+      "energy": 0.7561244907955137,
+      "packet_loss": 0.19019625928045794,
+      "throughput": 0.4894733247438107
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "pooled": {
+    "n_rows": 178000,
+    "edges": [
+      [
+        "compromised",
+        "HH_jit_L5_mean"
+      ],
+      [
+        "MI_dir_L5_mean",
+        "H_L5_mean"
+      ],
+      [
+        "HH_L5_mean",
+        "HH_jit_L5_mean"
+      ],
+      [
+        "HH_L5_mean",
+        "HpHp_L5_mean"
+      ],
+      [
+        "HpHp_L5_mean",
+        "HH_jit_L5_mean"
+      ]
+    ],
+    "compromised_out_degree": 1,
+    "compromised_in_degree": 0,
+    "compromised_out_edges": [
+      [
+        "compromised",
+        "HH_jit_L5_mean"
+      ]
+    ],
+    "compromised_edge_bootstrap_stability": {
+      "compromised->HH_jit_L5_mean": 1.0
+    }
+  },
+  "mirai": {
+    "n_rows": 88000,
+    "edges": [
+      [
+        "compromised",
+        "HH_jit_L5_mean"
+      ],
+      [
+        "MI_dir_L5_mean",
+        "H_L5_mean"
+      ],
+      [
+        "MI_dir_L5_mean",
+        "HH_jit_L5_mean"
+      ],
+      [
+        "H_L5_mean",
+        "HH_jit_L5_mean"
+      ],
+      [
+        "HH_L5_mean",
+        "compromised"
+      ],
+      [
+        "HH_L5_mean",
+        "HH_jit_L5_mean"
+      ],
+      [
+        "HH_L5_mean",
+        "HpHp_L5_mean"
+      ],
+      [
+        "HpHp_L5_mean",
+        "compromised"
+      ],
+      [
+        "HpHp_L5_mean",
+        "HH_jit_L5_mean"
+      ]
+    ],
+    "compromised_out_degree": 1,
+    "compromised_in_degree": 2,
+    "compromised_out_edges": [
+      [
+        "compromised",
+        "HH_jit_L5_mean"
+      ]
+    ],
+    "compromised_edge_bootstrap_stability": {
+      "compromised->HH_jit_L5_mean": 1.0
+    }
+  },
+  "gafgyt": {
+    "n_rows": 108000,
+    "edges": [
+      [
+        "compromised",
+        "HH_jit_L5_mean"
+      ],
+      [
+        "MI_dir_L5_mean",
+        "compromised"
+      ],
+      [
+        "MI_dir_L5_mean",
+        "H_L5_mean"
+      ],
+      [
+        "MI_dir_L5_mean",
+        "HH_jit_L5_mean"
+      ],
+      [
+        "H_L5_mean",
+        "compromised"
+      ],
+      [
+        "H_L5_mean",
+        "HH_jit_L5_mean"
+      ],
+      [
+        "HH_L5_mean",
+        "HpHp_L5_mean"
+      ],
+      [
+        "HpHp_L5_mean",
+        "MI_dir_L5_mean"
+      ],
+      [
+        "HpHp_L5_mean",
+        "H_L5_mean"
+      ]
+    ],
+    "compromised_out_degree": 1,
+    "compromised_in_degree": 2,
+    "compromised_out_edges": [
+      [
+        "compromised",
+        "HH_jit_L5_mean"
+      ]
+    ],
+    "compromised_edge_bootstrap_stability": {
+      "compromised->HH_jit_L5_mean": 1.0,
+      "compromised->MI_dir_L5_mean": 0.125,
+      "compromised->H_L5_mean": 0.125,
+      "compromised->HH_L5_mean": 0.125
+    }
+  }
+}

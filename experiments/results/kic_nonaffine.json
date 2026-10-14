@@ -1,0 +1,73 @@
+{
+ "agg": {
+  "unbounded": {
+   "y0": 0.3,
+   "b": -0.6,
+   "E": null,
+   "true_slope": 0.6,
+   "attacked_slope": -0.6,
+   "widening": 0.0,
+   "n": 200,
+   "runs_wrong": 200,
+   "runs_licensed": 0,
+   "median_first": null
+  },
+  "bounded, no widening": {
+   "y0": 0.15,
+   "b": -0.35,
+   "E": null,
+   "true_slope": 0.3,
+   "attacked_slope": -0.39999999999999997,
+   "widening": 0.0,
+   "n": 200,
+   "runs_wrong": 200,
+   "runs_licensed": 0,
+   "median_first": null
+  },
+  "bounded, widened": {
+   "y0": 0.15,
+   "b": -0.35,
+   "E": 0.35,
+   "true_slope": 0.3,
+   "attacked_slope": -0.39999999999999997,
+   "widening": 0.7,
+   "n": 200,
+   "runs_wrong": 0,
+   "runs_licensed": 0,
+   "median_first": null
+  },
+  "bounded, widened, live": {
+   "y0": 0.3,
+   "b": -0.1,
+   "E": 0.1,
+   "true_slope": 0.6,
+   "attacked_slope": 0.39999999999999997,
+   "widening": 0.2,
+   "n": 200,
+   "runs_wrong": 0,
+   "runs_licensed": 200,
+   "median_first": 853.0
+  },
+  "no attack": {
+   "y0": 0.3,
+   "b": 0.0,
+   "E": null,
+   "true_slope": 0.6,
+   "attacked_slope": 0.6,
+   "widening": 0.0,
+   "n": 200,
+   "runs_wrong": 0,
+   "runs_licensed": 200,
+   "median_first": 215.5
+  }
+ },
+ "config": {
+  "runs": 200,
+  "procs": 16,
+  "T": 1600,
+  "noise": 0.03,
+  "delta": 0.05,
+  "kappa_h": 2.0,
+  "g": 1.0
+ }
+}

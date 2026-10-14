@@ -1,0 +1,133 @@
+{
+  "provenance": {
+    "python": "3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]",
+    "numpy": "2.4.6",
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+    "hashes": {
+      "experiments/kic_controlled.py": "767c76ce7fe110397c50ab17201966949803c691a7cc447e83bef5088b6902c8",
+      "src/certify/kic.py": "fee96e5ed5b22a9bd90af592998fe91b2019b028209d0589dc6d79ae001d8b05"
+    }
+  },
+  "rows": [
+    {
+      "p": 2,
+      "anchors": 1,
+      "certificates": 2,
+      "median_us": 130.708,
+      "p95_us": 144.59154999999998,
+      "retained_bytes": 10429
+    },
+    {
+      "p": 2,
+      "anchors": 4,
+      "certificates": 8,
+      "median_us": 160.9755,
+      "p95_us": 176.379,
+      "retained_bytes": 21861
+    },
+    {
+      "p": 2,
+      "anchors": 16,
+      "certificates": 32,
+      "median_us": 274.5935,
+      "p95_us": 295.03835,
+      "retained_bytes": 67273
+    },
+    {
+      "p": 4,
+      "anchors": 1,
+      "certificates": 4,
+      "median_us": 213.381,
+      "p95_us": 244.71314999999998,
+      "retained_bytes": 13867
+    },
+    {
+      "p": 4,
+      "anchors": 4,
+      "certificates": 16,
+      "median_us": 248.632,
+      "p95_us": 266.50454999999994,
+      "retained_bytes": 36075
+    },
+    {
+      "p": 4,
+      "anchors": 16,
+      "certificates": 64,
+      "median_us": 363.76599999999996,
+      "p95_us": 378.82635000000005,
+      "retained_bytes": 126895
+    },
+    {
+      "p": 8,
+      "anchors": 1,
+      "certificates": 8,
+      "median_us": 364.8835,
+      "p95_us": 381.98115,
+      "retained_bytes": 22599
+    },
+    {
+      "p": 8,
+      "anchors": 4,
+      "certificates": 32,
+      "median_us": 401.5915,
+      "p95_us": 442.23945,
+      "retained_bytes": 69095
+    },
+    {
+      "p": 8,
+      "anchors": 16,
+      "certificates": 128,
+      "median_us": 510.2205,
+      "p95_us": 525.6754999999999,
+      "retained_bytes": 258923
+    },
+    {
+      "p": 16,
+      "anchors": 1,
+      "certificates": 16,
+      "median_us": 709.358,
+      "p95_us": 728.2734,
+      "retained_bytes": 43189
+    },
+    {
+      "p": 16,
+      "anchors": 4,
+      "certificates": 64,
+      "median_us": 730.2860000000001,
+      "p95_us": 770.9991499999999,
+      "retained_bytes": 147505
+    },
+    {
+      "p": 16,
+      "anchors": 16,
+      "certificates": 256,
+      "median_us": 845.602,
+      "p95_us": 961.2353499999998,
+      "retained_bytes": 571701
+    },
+    {
+      "p": 32,
+      "anchors": 1,
+      "certificates": 32,
+      "median_us": 1498.0035,
+      "p95_us": 1590.4219500000002,
+      "retained_bytes": 97521
+    },
+    {
+      "p": 32,
+      "anchors": 4,
+      "certificates": 128,
+      "median_us": 1543.8405,
+      "p95_us": 1617.9675499999998,
+      "retained_bytes": 357353
+    },
+    {
+      "p": 32,
+      "anchors": 16,
+      "certificates": 512,
+      "median_us": 1816.6185,
+      "p95_us": 2450.7109499999997,
+      "retained_bytes": 1395973
+    }
+  ]
+}

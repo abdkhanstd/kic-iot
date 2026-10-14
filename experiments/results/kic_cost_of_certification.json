@@ -1,0 +1,83 @@
+{
+ "excite|0.02": {
+  "ecost": 0.3601592765672514,
+  "overhead": 0.0009093018972414768
+ },
+ "fb|0.02|online": {
+  "ecost": 0.599456207742049,
+  "ecost_tail": 0.5840073581853775,
+  "median_t_first_cert": 321.0,
+  "frac_certified": 0.7,
+  "exec_harmful_moves": 0.0,
+  "exec_moves": 37.7
+ },
+ "fb|0.02|cellmean": {
+  "ecost": 0.6242026464304643,
+  "ecost_tail": 0.6292341204671,
+  "median_t_first_cert": null,
+  "frac_certified": 0.0,
+  "exec_harmful_moves": 0.0,
+  "exec_moves": 0.0
+ },
+ "excite|0.035": {
+  "ecost": 0.36205994414780657,
+  "overhead": 0.002809969477796659
+ },
+ "fb|0.035|online": {
+  "ecost": 0.5837511090703157,
+  "ecost_tail": 0.5648266146726333,
+  "median_t_first_cert": 216.0,
+  "frac_certified": 0.8,
+  "exec_harmful_moves": 0.0,
+  "exec_moves": 57.9
+ },
+ "fb|0.035|cellmean": {
+  "ecost": 0.6250860315924476,
+  "ecost_tail": 0.630172845472517,
+  "median_t_first_cert": null,
+  "frac_certified": 0.0,
+  "exec_harmful_moves": 0.0,
+  "exec_moves": 0.0
+ },
+ "excite|0.05": {
+  "ecost": 0.36499884139023314,
+  "overhead": 0.0057488667202232335
+ },
+ "fb|0.05|online": {
+  "ecost": 0.5810117824065231,
+  "ecost_tail": 0.5629528443024505,
+  "median_t_first_cert": 183.0,
+  "frac_certified": 0.8,
+  "exec_harmful_moves": 0.0,
+  "exec_moves": 74.9
+ },
+ "fb|0.05|cellmean": {
+  "ecost": 0.6263788708253408,
+  "ecost_tail": 0.631509592969746,
+  "median_t_first_cert": null,
+  "frac_certified": 0.0,
+  "exec_harmful_moves": 0.0,
+  "exec_moves": 0.0
+ },
+ "excite|0.08": {
+  "ecost": 0.37395019986357037,
+  "overhead": 0.014700225193560457
+ },
+ "fb|0.08|online": {
+  "ecost": 0.5853665541359879,
+  "ecost_tail": 0.567021534415231,
+  "median_t_first_cert": 175.5,
+  "frac_certified": 0.8,
+  "exec_harmful_moves": 0.0,
+  "exec_moves": 91.8
+ },
+ "fb|0.08|cellmean": {
+  "ecost": 0.6301798459092119,
+  "ecost_tail": 0.6353656026105619,
+  "median_t_first_cert": null,
+  "frac_certified": 0.0,
+  "exec_harmful_moves": 0.0,
+  "exec_moves": 0.0
+ },
+ "excite_base": 0.3592499746700099
+}

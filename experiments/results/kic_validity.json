@@ -1,0 +1,201 @@
+{
+ "summary": {
+  "honest": {
+   "n": 500,
+   "kic_false_cert": 0.0,
+   "kic_false_cert_ci": [
+    0.0,
+    0.007624618530903363
+   ],
+   "key_fixed_false_cert": 0.278,
+   "key_fixed_ci": [
+    0.24053595389789068,
+    0.31884937672983044
+   ],
+   "obs_cs_false_cert": 0.0,
+   "obs_cs_ci": [
+    0.0,
+    0.007624618530903363
+   ],
+   "obs_false_cert": 0.304,
+   "obs_false_cert_ci": [
+    0.2653013836201453,
+    0.3456874668439688
+   ],
+   "cost_power": 0.55,
+   "cost_wrong_sign": 0.0,
+   "median_t_cost": 455.0,
+   "clip_rate": 9.79591836734694e-05
+  },
+  "blind": {
+   "n": 500,
+   "kic_false_cert": 0.0,
+   "kic_false_cert_ci": [
+    0.0,
+    0.007624618530903363
+   ],
+   "key_fixed_false_cert": 0.292,
+   "key_fixed_ci": [
+    0.25385182596325645,
+    0.33332001534559935
+   ],
+   "obs_cs_false_cert": 1.0,
+   "obs_cs_ci": [
+    0.9923753814690964,
+    0.9999999999999999
+   ],
+   "obs_false_cert": 1.0,
+   "obs_false_cert_ci": [
+    0.9923753814690964,
+    0.9999999999999999
+   ],
+   "cost_power": 0.55,
+   "cost_wrong_sign": 0.0,
+   "median_t_cost": 455.0,
+   "clip_rate": 9.336734693877552e-05
+  },
+  "blind_cv": {
+   "n": 500,
+   "kic_false_cert": 0.002,
+   "kic_false_cert_ci": [
+    0.000353127309584542,
+    0.011240992747195207
+   ],
+   "key_fixed_false_cert": 0.292,
+   "key_fixed_ci": [
+    0.25385182596325645,
+    0.33332001534559935
+   ],
+   "obs_cs_false_cert": 1.0,
+   "obs_cs_ci": [
+    0.9923753814690964,
+    0.9999999999999999
+   ],
+   "obs_false_cert": 1.0,
+   "obs_false_cert_ci": [
+    0.9923753814690964,
+    0.9999999999999999
+   ],
+   "cost_power": 0.55,
+   "cost_wrong_sign": 0.0,
+   "median_t_cost": 455.0,
+   "clip_rate": 0.0787484693877551
+  },
+  "aware": {
+   "n": 500,
+   "kic_false_cert": 0.148,
+   "kic_false_cert_ci": [
+    0.11956093151848089,
+    0.18180679992727505
+   ],
+   "key_fixed_false_cert": 0.982,
+   "key_fixed_ci": [
+    0.9661479527879661,
+    0.9905019149482431
+   ],
+   "obs_cs_false_cert": 1.0,
+   "obs_cs_ci": [
+    0.9923753814690964,
+    0.9999999999999999
+   ],
+   "obs_false_cert": 1.0,
+   "obs_false_cert_ci": [
+    0.9923753814690964,
+    0.9999999999999999
+   ],
+   "cost_power": 0.55,
+   "cost_wrong_sign": 0.0,
+   "median_t_cost": 455.0,
+   "clip_rate": 9.89795918367347e-05
+  },
+  "public": {
+   "n": 500,
+   "kic_false_cert": 0.096,
+   "kic_false_cert_ci": [
+    0.07317313790557156,
+    0.12498755386739835
+   ],
+   "key_fixed_false_cert": 0.98,
+   "key_fixed_ci": [
+    0.9635794314459021,
+    0.9891009347644306
+   ],
+   "obs_cs_false_cert": 1.0,
+   "obs_cs_ci": [
+    0.9923753814690964,
+    0.9999999999999999
+   ],
+   "obs_false_cert": 1.0,
+   "obs_false_cert_ci": [
+    0.9923753814690964,
+    0.9999999999999999
+   ],
+   "cost_power": 0.472,
+   "cost_wrong_sign": 0.0,
+   "median_t_cost": 523.5,
+   "clip_rate": 0.0001785714285714286
+  },
+  "raw": {
+   "n": 500,
+   "kic_false_cert": 0.0,
+   "kic_false_cert_ci": [
+    0.0,
+    0.007624618530903363
+   ],
+   "key_fixed_false_cert": 0.278,
+   "key_fixed_ci": [
+    0.24053595389789068,
+    0.31884937672983044
+   ],
+   "obs_cs_false_cert": 0.0,
+   "obs_cs_ci": [
+    0.0,
+    0.007624618530903363
+   ],
+   "obs_false_cert": 0.304,
+   "obs_false_cert_ci": [
+    0.2653013836201453,
+    0.3456874668439688
+   ],
+   "cost_power": 0.0,
+   "cost_wrong_sign": 0.268,
+   "median_t_cost": 558.5,
+   "clip_rate": 0.004804081632653062
+  },
+  "raw_delayed": {
+   "n": 500,
+   "kic_false_cert": 0.0,
+   "kic_false_cert_ci": [
+    0.0,
+    0.007624618530903363
+   ],
+   "key_fixed_false_cert": 0.278,
+   "key_fixed_ci": [
+    0.24053595389789068,
+    0.31884937672983044
+   ],
+   "obs_cs_false_cert": 0.0,
+   "obs_cs_ci": [
+    0.0,
+    0.007624618530903363
+   ],
+   "obs_false_cert": 0.304,
+   "obs_false_cert_ci": [
+    0.2653013836201453,
+    0.3456874668439688
+   ],
+   "cost_power": 0.0,
+   "cost_wrong_sign": 0.002,
+   "median_t_cost": 833.0,
+   "clip_rate": 0.006500510204081633
+  }
+ },
+ "config": {
+  "runs": 500,
+  "T": 1000,
+  "alpha": 0.05,
+  "delta": 0.05,
+  "kappa": 0.4,
+  "procs": 54
+ }
+}

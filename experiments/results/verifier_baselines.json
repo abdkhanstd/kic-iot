@@ -1,0 +1,62 @@
+{
+  "accept-all": {
+    "name": "accept-all",
+    "rejection_rate": 0.0,
+    "kept_correct": 3,
+    "kept_wrong": 117,
+    "rejected_correct": 0,
+    "rejected_wrong": 0,
+    "precision": 0.025,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.04878048780487806
+  },
+  "random@matched-rate": {
+    "name": "random@matched-rate",
+    "rejection_rate": 0.9666666666666667,
+    "kept_correct": 0,
+    "kept_wrong": 4,
+    "rejected_correct": 3,
+    "rejected_wrong": 113,
+    "precision": 0.0,
+    "recall": 0.0,
+    "specificity": 0.9658119658119658,
+    "f1": NaN
+  },
+  "syntax-only": {
+    "name": "syntax-only",
+    "rejection_rate": 0.0,
+    "kept_correct": 3,
+    "kept_wrong": 117,
+    "rejected_correct": 0,
+    "rejected_wrong": 0,
+    "precision": 0.025,
+    "recall": 1.0,
+    "specificity": 0.0,
+    "f1": 0.04878048780487806
+  },
+  "magnitude-only": {
+    "name": "magnitude-only",
+    "rejection_rate": 0.5833333333333333,
+    "kept_correct": 3,
+    "kept_wrong": 47,
+    "rejected_correct": 0,
+    "rejected_wrong": 70,
+    "precision": 0.06,
+    "recall": 1.0,
+    "specificity": 0.5982905982905983,
+    "f1": 0.11320754716981131
+  },
+  "causal verifier (ours)": {
+    "name": "causal verifier (ours)",
+    "rejection_rate": 0.975,
+    "kept_correct": 3,
+    "kept_wrong": 0,
+    "rejected_correct": 0,
+    "rejected_wrong": 117,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "f1": 1.0
+  }
+}

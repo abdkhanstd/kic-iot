@@ -1,0 +1,48 @@
+{
+  "provenance": {
+    "python": "3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]",
+    "numpy": "2.4.6",
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+    "hashes": {
+      "experiments/kic_controlled.py": "767c76ce7fe110397c50ab17201966949803c691a7cc447e83bef5088b6902c8",
+      "src/certify/kic.py": "fee96e5ed5b22a9bd90af592998fe91b2019b028209d0589dc6d79ae001d8b05"
+    }
+  },
+  "rows": [
+    {
+      "p": 2,
+      "median_us": 152.0355,
+      "p95_us": 170.10435,
+      "retained_bytes": 10174,
+      "certificates": 2
+    },
+    {
+      "p": 4,
+      "median_us": 195.85649999999998,
+      "p95_us": 216.34994999999995,
+      "retained_bytes": 14140,
+      "certificates": 4
+    },
+    {
+      "p": 8,
+      "median_us": 329.933,
+      "p95_us": 358.79555,
+      "retained_bytes": 22808,
+      "certificates": 8
+    },
+    {
+      "p": 16,
+      "median_us": 648.5145,
+      "p95_us": 687.1954000000001,
+      "retained_bytes": 42902,
+      "certificates": 16
+    },
+    {
+      "p": 32,
+      "median_us": 1375.9895000000001,
+      "p95_us": 1436.55925,
+      "retained_bytes": 97110,
+      "certificates": 32
+    }
+  ]
+}

@@ -1,0 +1,6141 @@
+{
+  "config": {
+    "suite": "all",
+    "seeds": 30,
+    "ticks": 1600,
+    "workers": 8,
+    "out_dir": "experiments/results/controlled"
+  },
+  "provenance": {
+    "python": "3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]",
+    "numpy": "2.4.6",
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+    "hashes": {
+      "experiments/kic_controlled.py": "767c76ce7fe110397c50ab17201966949803c691a7cc447e83bef5088b6902c8",
+      "src/certify/kic.py": "fee96e5ed5b22a9bd90af592998fe91b2019b028209d0589dc6d79ae001d8b05"
+    }
+  },
+  "elapsed_seconds": 11.563017129898071,
+  "rows": [
+    {
+      "scenario": "clean",
+      "seed": 0,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 683,
+          "authorized_beneficial": 683,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 196,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 822,
+          "authorized_beneficial": 822,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 822,
+          "authorized_beneficial": 822,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 822,
+          "authorized_beneficial": 822,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 1,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 679,
+          "authorized_beneficial": 679,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 257,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 819,
+          "authorized_beneficial": 819,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 819,
+          "authorized_beneficial": 819,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 819,
+          "authorized_beneficial": 819,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 2,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 700,
+          "authorized_beneficial": 700,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 164,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 788,
+          "authorized_beneficial": 788,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 788,
+          "authorized_beneficial": 788,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 788,
+          "authorized_beneficial": 788,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 3,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 687,
+          "authorized_beneficial": 687,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 229,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 808,
+          "authorized_beneficial": 808,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 808,
+          "authorized_beneficial": 808,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 808,
+          "authorized_beneficial": 808,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 4,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 739,
+          "authorized_beneficial": 739,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 159,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 5,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 713,
+          "authorized_beneficial": 713,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 199,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 807,
+          "authorized_beneficial": 807,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 807,
+          "authorized_beneficial": 807,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 807,
+          "authorized_beneficial": 807,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 6,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 726,
+          "authorized_beneficial": 726,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 165,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 837,
+          "authorized_beneficial": 837,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 837,
+          "authorized_beneficial": 837,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 837,
+          "authorized_beneficial": 837,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 7,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 710,
+          "authorized_beneficial": 710,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 150,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 781,
+          "authorized_beneficial": 781,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 781,
+          "authorized_beneficial": 781,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 781,
+          "authorized_beneficial": 781,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 8,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 660,
+          "authorized_beneficial": 660,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 139,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 760,
+          "authorized_beneficial": 760,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 8,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 760,
+          "authorized_beneficial": 760,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 8,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 760,
+          "authorized_beneficial": 760,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 8,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 9,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 720,
+          "authorized_beneficial": 720,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 223,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 836,
+          "authorized_beneficial": 836,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 836,
+          "authorized_beneficial": 836,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 836,
+          "authorized_beneficial": 836,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 10,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 728,
+          "authorized_beneficial": 728,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 175,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 824,
+          "authorized_beneficial": 824,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 824,
+          "authorized_beneficial": 824,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 824,
+          "authorized_beneficial": 824,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 11,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 654,
+          "authorized_beneficial": 654,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 177,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 778,
+          "authorized_beneficial": 778,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 778,
+          "authorized_beneficial": 778,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 778,
+          "authorized_beneficial": 778,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 12,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 692,
+          "authorized_beneficial": 692,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 192,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 818,
+          "authorized_beneficial": 818,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 818,
+          "authorized_beneficial": 818,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 818,
+          "authorized_beneficial": 818,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 13,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 704,
+          "authorized_beneficial": 704,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 135,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 816,
+          "authorized_beneficial": 816,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 816,
+          "authorized_beneficial": 816,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 816,
+          "authorized_beneficial": 816,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 14,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 726,
+          "authorized_beneficial": 726,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 136,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 823,
+          "authorized_beneficial": 823,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 823,
+          "authorized_beneficial": 823,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 823,
+          "authorized_beneficial": 823,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 15,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 688,
+          "authorized_beneficial": 688,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 186,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 820,
+          "authorized_beneficial": 820,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 820,
+          "authorized_beneficial": 820,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 820,
+          "authorized_beneficial": 820,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 16,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 733,
+          "authorized_beneficial": 733,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 186,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 833,
+          "authorized_beneficial": 833,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 833,
+          "authorized_beneficial": 833,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 833,
+          "authorized_beneficial": 833,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 17,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 675,
+          "authorized_beneficial": 675,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 174,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 767,
+          "authorized_beneficial": 767,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 767,
+          "authorized_beneficial": 767,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 767,
+          "authorized_beneficial": 767,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 18,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 691,
+          "authorized_beneficial": 691,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 190,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 801,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 801,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 801,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 19,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 690,
+          "authorized_beneficial": 690,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 229,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 817,
+          "authorized_beneficial": 817,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 817,
+          "authorized_beneficial": 817,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 817,
+          "authorized_beneficial": 817,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 20,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 648,
+          "authorized_beneficial": 648,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 216,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 770,
+          "authorized_beneficial": 770,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 7,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 770,
+          "authorized_beneficial": 770,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 7,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 770,
+          "authorized_beneficial": 770,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 7,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 21,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 729,
+          "authorized_beneficial": 729,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 199,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 22,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 662,
+          "authorized_beneficial": 662,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 197,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 765,
+          "authorized_beneficial": 765,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 765,
+          "authorized_beneficial": 765,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 765,
+          "authorized_beneficial": 765,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 23,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 649,
+          "authorized_beneficial": 649,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 147,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 777,
+          "authorized_beneficial": 777,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 777,
+          "authorized_beneficial": 777,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 777,
+          "authorized_beneficial": 777,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 24,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 587,
+          "authorized_beneficial": 587,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 349,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 779,
+          "authorized_beneficial": 779,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 779,
+          "authorized_beneficial": 779,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 779,
+          "authorized_beneficial": 779,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 25,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 717,
+          "authorized_beneficial": 717,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 180,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 813,
+          "authorized_beneficial": 813,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 813,
+          "authorized_beneficial": 813,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 813,
+          "authorized_beneficial": 813,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 26,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 662,
+          "authorized_beneficial": 662,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 225,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 772,
+          "authorized_beneficial": 772,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 772,
+          "authorized_beneficial": 772,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 772,
+          "authorized_beneficial": 772,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 27,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 716,
+          "authorized_beneficial": 716,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 201,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 829,
+          "authorized_beneficial": 829,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 829,
+          "authorized_beneficial": 829,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 829,
+          "authorized_beneficial": 829,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 28,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 669,
+          "authorized_beneficial": 669,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 236,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 790,
+          "authorized_beneficial": 790,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 790,
+          "authorized_beneficial": 790,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 790,
+          "authorized_beneficial": 790,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "clean",
+      "seed": 29,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 733,
+          "authorized_beneficial": 733,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 172,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 843,
+          "authorized_beneficial": 843,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 843,
+          "authorized_beneficial": 843,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 843,
+          "authorized_beneficial": 843,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 0,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 683,
+          "authorized_beneficial": 683,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 196,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 781,
+          "authorized_beneficial": 412,
+          "authorized_harmful": 369,
+          "ever_harmful": true,
+          "first_beneficial": 10,
+          "worst_harm": 0.04516893049321006
+        },
+        "OLS-horizon": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 781,
+          "authorized_beneficial": 412,
+          "authorized_harmful": 369,
+          "ever_harmful": true,
+          "first_beneficial": 10,
+          "worst_harm": 0.04516893049321006
+        },
+        "Oracle": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 822,
+          "authorized_beneficial": 822,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 1,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 679,
+          "authorized_beneficial": 679,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 257,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 412,
+          "authorized_harmful": 389,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.033835817350577294
+        },
+        "OLS-horizon": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 412,
+          "authorized_harmful": 389,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.033835817350577294
+        },
+        "Oracle": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 819,
+          "authorized_beneficial": 819,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 2,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 700,
+          "authorized_beneficial": 700,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 164,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 812,
+          "authorized_beneficial": 397,
+          "authorized_harmful": 415,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.04639656352898283
+        },
+        "OLS-horizon": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 812,
+          "authorized_beneficial": 397,
+          "authorized_harmful": 415,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.04639656352898283
+        },
+        "Oracle": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 788,
+          "authorized_beneficial": 788,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 3,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 687,
+          "authorized_beneficial": 687,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 229,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 815,
+          "authorized_beneficial": 424,
+          "authorized_harmful": 391,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03791397895854922
+        },
+        "OLS-horizon": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 815,
+          "authorized_beneficial": 424,
+          "authorized_harmful": 391,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03791397895854922
+        },
+        "Oracle": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 808,
+          "authorized_beneficial": 808,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 4,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 739,
+          "authorized_beneficial": 739,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 159,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 771,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 373,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.0467521533342016
+        },
+        "OLS-horizon": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 771,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 373,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.0467521533342016
+        },
+        "Oracle": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 5,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 713,
+          "authorized_beneficial": 713,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 199,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 786,
+          "authorized_beneficial": 394,
+          "authorized_harmful": 392,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03804838839078083
+        },
+        "OLS-horizon": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 786,
+          "authorized_beneficial": 394,
+          "authorized_harmful": 392,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03804838839078083
+        },
+        "Oracle": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 807,
+          "authorized_beneficial": 807,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 6,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 726,
+          "authorized_beneficial": 726,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 165,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 761,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 363,
+          "ever_harmful": true,
+          "first_beneficial": 4,
+          "worst_harm": 0.032309715772088576
+        },
+        "OLS-horizon": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 761,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 363,
+          "ever_harmful": true,
+          "first_beneficial": 4,
+          "worst_harm": 0.032309715772088576
+        },
+        "Oracle": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 837,
+          "authorized_beneficial": 837,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 7,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 710,
+          "authorized_beneficial": 710,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 150,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 780,
+          "authorized_beneficial": 393,
+          "authorized_harmful": 387,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.048406441355511726
+        },
+        "OLS-horizon": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 780,
+          "authorized_beneficial": 393,
+          "authorized_harmful": 387,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.048406441355511726
+        },
+        "Oracle": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 781,
+          "authorized_beneficial": 781,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 8,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 660,
+          "authorized_beneficial": 660,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 139,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 387,
+          "authorized_harmful": 414,
+          "ever_harmful": true,
+          "first_beneficial": 13,
+          "worst_harm": 0.053960055197401754
+        },
+        "OLS-horizon": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 387,
+          "authorized_harmful": 414,
+          "ever_harmful": true,
+          "first_beneficial": 13,
+          "worst_harm": 0.053960055197401754
+        },
+        "Oracle": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 760,
+          "authorized_beneficial": 760,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 8,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 9,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 720,
+          "authorized_beneficial": 720,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 223,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 800,
+          "authorized_beneficial": 409,
+          "authorized_harmful": 391,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03780779757793171
+        },
+        "OLS-horizon": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 800,
+          "authorized_beneficial": 409,
+          "authorized_harmful": 391,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03780779757793171
+        },
+        "Oracle": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 836,
+          "authorized_beneficial": 836,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 10,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 728,
+          "authorized_beneficial": 728,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 175,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 836,
+          "authorized_beneficial": 427,
+          "authorized_harmful": 409,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.04425049197796305
+        },
+        "OLS-horizon": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 836,
+          "authorized_beneficial": 427,
+          "authorized_harmful": 409,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.04425049197796305
+        },
+        "Oracle": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 824,
+          "authorized_beneficial": 824,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 11,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 654,
+          "authorized_beneficial": 654,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 177,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 804,
+          "authorized_beneficial": 406,
+          "authorized_harmful": 398,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03117082773706169
+        },
+        "OLS-horizon": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 804,
+          "authorized_beneficial": 406,
+          "authorized_harmful": 398,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03117082773706169
+        },
+        "Oracle": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 778,
+          "authorized_beneficial": 778,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 12,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 692,
+          "authorized_beneficial": 692,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 192,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 783,
+          "authorized_beneficial": 402,
+          "authorized_harmful": 381,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.030286932533278136
+        },
+        "OLS-horizon": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 783,
+          "authorized_beneficial": 402,
+          "authorized_harmful": 381,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.030286932533278136
+        },
+        "Oracle": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 818,
+          "authorized_beneficial": 818,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 13,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 704,
+          "authorized_beneficial": 704,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 135,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 790,
+          "authorized_beneficial": 400,
+          "authorized_harmful": 390,
+          "ever_harmful": true,
+          "first_beneficial": 19,
+          "worst_harm": 0.05159499600115954
+        },
+        "OLS-horizon": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 790,
+          "authorized_beneficial": 400,
+          "authorized_harmful": 390,
+          "ever_harmful": true,
+          "first_beneficial": 19,
+          "worst_harm": 0.05159499600115954
+        },
+        "Oracle": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 816,
+          "authorized_beneficial": 816,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 14,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 726,
+          "authorized_beneficial": 726,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 136,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 783,
+          "authorized_beneficial": 395,
+          "authorized_harmful": 388,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.04964327809282576
+        },
+        "OLS-horizon": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 783,
+          "authorized_beneficial": 395,
+          "authorized_harmful": 388,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.04964327809282576
+        },
+        "Oracle": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 823,
+          "authorized_beneficial": 823,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 15,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 688,
+          "authorized_beneficial": 688,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 186,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 800,
+          "authorized_beneficial": 402,
+          "authorized_harmful": 398,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.046701769225841586
+        },
+        "OLS-horizon": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 800,
+          "authorized_beneficial": 402,
+          "authorized_harmful": 398,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.046701769225841586
+        },
+        "Oracle": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 820,
+          "authorized_beneficial": 820,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 16,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 733,
+          "authorized_beneficial": 733,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 186,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 788,
+          "authorized_beneficial": 410,
+          "authorized_harmful": 378,
+          "ever_harmful": true,
+          "first_beneficial": 4,
+          "worst_harm": 0.03787432463495495
+        },
+        "OLS-horizon": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 788,
+          "authorized_beneficial": 410,
+          "authorized_harmful": 378,
+          "ever_harmful": true,
+          "first_beneficial": 4,
+          "worst_harm": 0.03787432463495495
+        },
+        "Oracle": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 833,
+          "authorized_beneficial": 833,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 17,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 675,
+          "authorized_beneficial": 675,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 174,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 802,
+          "authorized_beneficial": 381,
+          "authorized_harmful": 421,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.042281165226634186
+        },
+        "OLS-horizon": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 802,
+          "authorized_beneficial": 381,
+          "authorized_harmful": 421,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.042281165226634186
+        },
+        "Oracle": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 767,
+          "authorized_beneficial": 767,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 18,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 691,
+          "authorized_beneficial": 691,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 190,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 820,
+          "authorized_beneficial": 403,
+          "authorized_harmful": 417,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.03920767966305436
+        },
+        "OLS-horizon": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 820,
+          "authorized_beneficial": 403,
+          "authorized_harmful": 417,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.03920767966305436
+        },
+        "Oracle": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 801,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 19,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 690,
+          "authorized_beneficial": 690,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 229,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 799,
+          "authorized_beneficial": 403,
+          "authorized_harmful": 396,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03218879824109224
+        },
+        "OLS-horizon": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 799,
+          "authorized_beneficial": 403,
+          "authorized_harmful": 396,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03218879824109224
+        },
+        "Oracle": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 817,
+          "authorized_beneficial": 817,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 20,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 648,
+          "authorized_beneficial": 648,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 216,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 819,
+          "authorized_beneficial": 403,
+          "authorized_harmful": 416,
+          "ever_harmful": true,
+          "first_beneficial": 9,
+          "worst_harm": 0.03934143288531292
+        },
+        "OLS-horizon": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 819,
+          "authorized_beneficial": 403,
+          "authorized_harmful": 416,
+          "ever_harmful": true,
+          "first_beneficial": 9,
+          "worst_harm": 0.03934143288531292
+        },
+        "Oracle": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 770,
+          "authorized_beneficial": 770,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 7,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 21,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 729,
+          "authorized_beneficial": 729,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 199,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 822,
+          "authorized_beneficial": 421,
+          "authorized_harmful": 401,
+          "ever_harmful": true,
+          "first_beneficial": 5,
+          "worst_harm": 0.03420083481932047
+        },
+        "OLS-horizon": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 822,
+          "authorized_beneficial": 421,
+          "authorized_harmful": 401,
+          "ever_harmful": true,
+          "first_beneficial": 5,
+          "worst_harm": 0.03420083481932047
+        },
+        "Oracle": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 22,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 662,
+          "authorized_beneficial": 662,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 197,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 805,
+          "authorized_beneficial": 377,
+          "authorized_harmful": 428,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.0428233703219306
+        },
+        "OLS-horizon": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 805,
+          "authorized_beneficial": 377,
+          "authorized_harmful": 428,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.0428233703219306
+        },
+        "Oracle": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 765,
+          "authorized_beneficial": 765,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 23,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 649,
+          "authorized_beneficial": 649,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 147,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 810,
+          "authorized_beneficial": 400,
+          "authorized_harmful": 410,
+          "ever_harmful": true,
+          "first_beneficial": 6,
+          "worst_harm": 0.05124561216672393
+        },
+        "OLS-horizon": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 810,
+          "authorized_beneficial": 400,
+          "authorized_harmful": 410,
+          "ever_harmful": true,
+          "first_beneficial": 6,
+          "worst_harm": 0.05124561216672393
+        },
+        "Oracle": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 777,
+          "authorized_beneficial": 777,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 24,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 587,
+          "authorized_beneficial": 587,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 349,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 776,
+          "authorized_beneficial": 369,
+          "authorized_harmful": 407,
+          "ever_harmful": true,
+          "first_beneficial": 9,
+          "worst_harm": 0.03331096518119367
+        },
+        "OLS-horizon": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 776,
+          "authorized_beneficial": 369,
+          "authorized_harmful": 407,
+          "ever_harmful": true,
+          "first_beneficial": 9,
+          "worst_harm": 0.03331096518119367
+        },
+        "Oracle": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 779,
+          "authorized_beneficial": 779,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 25,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 717,
+          "authorized_beneficial": 717,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 180,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 772,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 374,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03902941727504372
+        },
+        "OLS-horizon": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 772,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 374,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03902941727504372
+        },
+        "Oracle": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 813,
+          "authorized_beneficial": 813,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 26,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 662,
+          "authorized_beneficial": 662,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 225,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 818,
+          "authorized_beneficial": 396,
+          "authorized_harmful": 422,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03853495534931495
+        },
+        "OLS-horizon": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 818,
+          "authorized_beneficial": 396,
+          "authorized_harmful": 422,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03853495534931495
+        },
+        "Oracle": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 772,
+          "authorized_beneficial": 772,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 27,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 716,
+          "authorized_beneficial": 716,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 201,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 813,
+          "authorized_beneficial": 439,
+          "authorized_harmful": 374,
+          "ever_harmful": true,
+          "first_beneficial": 10,
+          "worst_harm": 0.04119589826019947
+        },
+        "OLS-horizon": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 813,
+          "authorized_beneficial": 439,
+          "authorized_harmful": 374,
+          "ever_harmful": true,
+          "first_beneficial": 10,
+          "worst_harm": 0.04119589826019947
+        },
+        "Oracle": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 829,
+          "authorized_beneficial": 829,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 28,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 669,
+          "authorized_beneficial": 669,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 236,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 826,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 428,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03552680629832425
+        },
+        "OLS-horizon": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 826,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 428,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03552680629832425
+        },
+        "Oracle": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 790,
+          "authorized_beneficial": 790,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs",
+      "seed": 29,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 733,
+          "authorized_beneficial": 733,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 172,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 797,
+          "authorized_beneficial": 428,
+          "authorized_harmful": 369,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03136376352759736
+        },
+        "OLS-horizon": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 797,
+          "authorized_beneficial": 428,
+          "authorized_harmful": 369,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03136376352759736
+        },
+        "Oracle": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 843,
+          "authorized_beneficial": 843,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 0,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 683,
+          "authorized_beneficial": 683,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 196,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 822,
+          "authorized_beneficial": 822,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 822,
+          "authorized_beneficial": 822,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 822,
+          "authorized_beneficial": 822,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 1,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 679,
+          "authorized_beneficial": 679,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 257,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 819,
+          "authorized_beneficial": 819,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 819,
+          "authorized_beneficial": 819,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 819,
+          "authorized_beneficial": 819,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 2,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 688,
+          "authorized_beneficial": 688,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 181,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 788,
+          "authorized_beneficial": 788,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 788,
+          "authorized_beneficial": 788,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 788,
+          "authorized_beneficial": 788,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 3,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 687,
+          "authorized_beneficial": 687,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 229,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 808,
+          "authorized_beneficial": 808,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 808,
+          "authorized_beneficial": 808,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 808,
+          "authorized_beneficial": 808,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 4,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 739,
+          "authorized_beneficial": 739,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 159,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 5,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 714,
+          "authorized_beneficial": 714,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 192,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 807,
+          "authorized_beneficial": 807,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 807,
+          "authorized_beneficial": 807,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 807,
+          "authorized_beneficial": 807,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 6,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 729,
+          "authorized_beneficial": 729,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 162,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 837,
+          "authorized_beneficial": 837,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 837,
+          "authorized_beneficial": 837,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 837,
+          "authorized_beneficial": 837,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 7,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 709,
+          "authorized_beneficial": 709,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 155,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 781,
+          "authorized_beneficial": 781,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 781,
+          "authorized_beneficial": 781,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 781,
+          "authorized_beneficial": 781,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 8,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 656,
+          "authorized_beneficial": 656,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 146,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 760,
+          "authorized_beneficial": 760,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 8,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 760,
+          "authorized_beneficial": 760,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 8,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 760,
+          "authorized_beneficial": 760,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 8,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 9,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 724,
+          "authorized_beneficial": 724,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 213,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 836,
+          "authorized_beneficial": 836,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 836,
+          "authorized_beneficial": 836,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 836,
+          "authorized_beneficial": 836,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 10,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 728,
+          "authorized_beneficial": 728,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 175,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 824,
+          "authorized_beneficial": 824,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 824,
+          "authorized_beneficial": 824,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 824,
+          "authorized_beneficial": 824,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 11,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 655,
+          "authorized_beneficial": 655,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 177,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 778,
+          "authorized_beneficial": 778,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 778,
+          "authorized_beneficial": 778,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 778,
+          "authorized_beneficial": 778,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 12,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 694,
+          "authorized_beneficial": 694,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 192,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 818,
+          "authorized_beneficial": 818,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 818,
+          "authorized_beneficial": 818,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 818,
+          "authorized_beneficial": 818,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 13,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 702,
+          "authorized_beneficial": 702,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 144,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 816,
+          "authorized_beneficial": 816,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 816,
+          "authorized_beneficial": 816,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 816,
+          "authorized_beneficial": 816,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 14,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 724,
+          "authorized_beneficial": 724,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 136,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 823,
+          "authorized_beneficial": 823,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 823,
+          "authorized_beneficial": 823,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 823,
+          "authorized_beneficial": 823,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 15,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 687,
+          "authorized_beneficial": 687,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 186,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 820,
+          "authorized_beneficial": 820,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 820,
+          "authorized_beneficial": 820,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 820,
+          "authorized_beneficial": 820,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 16,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 736,
+          "authorized_beneficial": 736,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 182,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 833,
+          "authorized_beneficial": 833,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 833,
+          "authorized_beneficial": 833,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 833,
+          "authorized_beneficial": 833,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 17,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 675,
+          "authorized_beneficial": 675,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 174,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 767,
+          "authorized_beneficial": 767,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 767,
+          "authorized_beneficial": 767,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 767,
+          "authorized_beneficial": 767,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 18,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 691,
+          "authorized_beneficial": 691,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 190,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 801,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 801,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 801,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 19,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 692,
+          "authorized_beneficial": 692,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 220,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 817,
+          "authorized_beneficial": 817,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 817,
+          "authorized_beneficial": 817,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 817,
+          "authorized_beneficial": 817,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 20,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 648,
+          "authorized_beneficial": 648,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 216,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 770,
+          "authorized_beneficial": 770,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 7,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 770,
+          "authorized_beneficial": 770,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 7,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 770,
+          "authorized_beneficial": 770,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 7,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 21,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 734,
+          "authorized_beneficial": 734,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 199,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 22,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 662,
+          "authorized_beneficial": 662,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 197,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 765,
+          "authorized_beneficial": 765,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 765,
+          "authorized_beneficial": 765,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 765,
+          "authorized_beneficial": 765,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 23,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 648,
+          "authorized_beneficial": 648,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 147,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 777,
+          "authorized_beneficial": 777,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 777,
+          "authorized_beneficial": 777,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 777,
+          "authorized_beneficial": 777,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 24,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 598,
+          "authorized_beneficial": 598,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 334,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 779,
+          "authorized_beneficial": 779,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 779,
+          "authorized_beneficial": 779,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 779,
+          "authorized_beneficial": 779,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 25,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 717,
+          "authorized_beneficial": 717,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 180,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 813,
+          "authorized_beneficial": 813,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 813,
+          "authorized_beneficial": 813,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 813,
+          "authorized_beneficial": 813,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 26,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 662,
+          "authorized_beneficial": 662,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 225,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 772,
+          "authorized_beneficial": 772,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 772,
+          "authorized_beneficial": 772,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 772,
+          "authorized_beneficial": 772,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 27,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 716,
+          "authorized_beneficial": 716,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 201,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 829,
+          "authorized_beneficial": 829,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 829,
+          "authorized_beneficial": 829,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 829,
+          "authorized_beneficial": 829,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 28,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 673,
+          "authorized_beneficial": 673,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 226,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 790,
+          "authorized_beneficial": 790,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 790,
+          "authorized_beneficial": 790,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 790,
+          "authorized_beneficial": 790,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "online",
+      "seed": 29,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 734,
+          "authorized_beneficial": 734,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 159,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 843,
+          "authorized_beneficial": 843,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "OLS-horizon": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 843,
+          "authorized_beneficial": 843,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        },
+        "Oracle": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 843,
+          "authorized_beneficial": 843,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 0,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 683,
+          "authorized_beneficial": 683,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 196,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 781,
+          "authorized_beneficial": 412,
+          "authorized_harmful": 369,
+          "ever_harmful": true,
+          "first_beneficial": 10,
+          "worst_harm": 0.04516893049321006
+        },
+        "OLS-horizon": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 781,
+          "authorized_beneficial": 412,
+          "authorized_harmful": 369,
+          "ever_harmful": true,
+          "first_beneficial": 10,
+          "worst_harm": 0.04516893049321006
+        },
+        "Oracle": {
+          "beneficial": 822,
+          "harmful": 778,
+          "neutral": 0,
+          "authorized": 822,
+          "authorized_beneficial": 822,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 1,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 679,
+          "authorized_beneficial": 679,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 257,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 412,
+          "authorized_harmful": 389,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.033835817350577294
+        },
+        "OLS-horizon": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 412,
+          "authorized_harmful": 389,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.033835817350577294
+        },
+        "Oracle": {
+          "beneficial": 819,
+          "harmful": 781,
+          "neutral": 0,
+          "authorized": 819,
+          "authorized_beneficial": 819,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 2,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 688,
+          "authorized_beneficial": 688,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 181,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 812,
+          "authorized_beneficial": 397,
+          "authorized_harmful": 415,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.04639656352898283
+        },
+        "OLS-horizon": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 812,
+          "authorized_beneficial": 397,
+          "authorized_harmful": 415,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.04639656352898283
+        },
+        "Oracle": {
+          "beneficial": 788,
+          "harmful": 812,
+          "neutral": 0,
+          "authorized": 788,
+          "authorized_beneficial": 788,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 3,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 687,
+          "authorized_beneficial": 687,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 229,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 815,
+          "authorized_beneficial": 424,
+          "authorized_harmful": 391,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03791397895854922
+        },
+        "OLS-horizon": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 815,
+          "authorized_beneficial": 424,
+          "authorized_harmful": 391,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03791397895854922
+        },
+        "Oracle": {
+          "beneficial": 808,
+          "harmful": 792,
+          "neutral": 0,
+          "authorized": 808,
+          "authorized_beneficial": 808,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 4,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 739,
+          "authorized_beneficial": 739,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 159,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 771,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 373,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.0467521533342016
+        },
+        "OLS-horizon": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 771,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 373,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.0467521533342016
+        },
+        "Oracle": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 5,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 714,
+          "authorized_beneficial": 714,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 192,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 786,
+          "authorized_beneficial": 394,
+          "authorized_harmful": 392,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03804838839078083
+        },
+        "OLS-horizon": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 786,
+          "authorized_beneficial": 394,
+          "authorized_harmful": 392,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03804838839078083
+        },
+        "Oracle": {
+          "beneficial": 807,
+          "harmful": 793,
+          "neutral": 0,
+          "authorized": 807,
+          "authorized_beneficial": 807,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 6,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 729,
+          "authorized_beneficial": 729,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 162,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 761,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 363,
+          "ever_harmful": true,
+          "first_beneficial": 4,
+          "worst_harm": 0.032309715772088576
+        },
+        "OLS-horizon": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 761,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 363,
+          "ever_harmful": true,
+          "first_beneficial": 4,
+          "worst_harm": 0.032309715772088576
+        },
+        "Oracle": {
+          "beneficial": 837,
+          "harmful": 763,
+          "neutral": 0,
+          "authorized": 837,
+          "authorized_beneficial": 837,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 7,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 709,
+          "authorized_beneficial": 709,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 155,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 780,
+          "authorized_beneficial": 393,
+          "authorized_harmful": 387,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.048406441355511726
+        },
+        "OLS-horizon": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 780,
+          "authorized_beneficial": 393,
+          "authorized_harmful": 387,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.048406441355511726
+        },
+        "Oracle": {
+          "beneficial": 781,
+          "harmful": 819,
+          "neutral": 0,
+          "authorized": 781,
+          "authorized_beneficial": 781,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 8,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 656,
+          "authorized_beneficial": 656,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 146,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 387,
+          "authorized_harmful": 414,
+          "ever_harmful": true,
+          "first_beneficial": 13,
+          "worst_harm": 0.053960055197401754
+        },
+        "OLS-horizon": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 387,
+          "authorized_harmful": 414,
+          "ever_harmful": true,
+          "first_beneficial": 13,
+          "worst_harm": 0.053960055197401754
+        },
+        "Oracle": {
+          "beneficial": 760,
+          "harmful": 840,
+          "neutral": 0,
+          "authorized": 760,
+          "authorized_beneficial": 760,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 8,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 9,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 724,
+          "authorized_beneficial": 724,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 213,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 800,
+          "authorized_beneficial": 409,
+          "authorized_harmful": 391,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03780779757793171
+        },
+        "OLS-horizon": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 800,
+          "authorized_beneficial": 409,
+          "authorized_harmful": 391,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03780779757793171
+        },
+        "Oracle": {
+          "beneficial": 836,
+          "harmful": 764,
+          "neutral": 0,
+          "authorized": 836,
+          "authorized_beneficial": 836,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 10,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 728,
+          "authorized_beneficial": 728,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 175,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 836,
+          "authorized_beneficial": 427,
+          "authorized_harmful": 409,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.04425049197796305
+        },
+        "OLS-horizon": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 836,
+          "authorized_beneficial": 427,
+          "authorized_harmful": 409,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.04425049197796305
+        },
+        "Oracle": {
+          "beneficial": 824,
+          "harmful": 776,
+          "neutral": 0,
+          "authorized": 824,
+          "authorized_beneficial": 824,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 3,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 11,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 655,
+          "authorized_beneficial": 655,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 177,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 804,
+          "authorized_beneficial": 406,
+          "authorized_harmful": 398,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03117082773706169
+        },
+        "OLS-horizon": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 804,
+          "authorized_beneficial": 406,
+          "authorized_harmful": 398,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03117082773706169
+        },
+        "Oracle": {
+          "beneficial": 778,
+          "harmful": 822,
+          "neutral": 0,
+          "authorized": 778,
+          "authorized_beneficial": 778,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 12,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 694,
+          "authorized_beneficial": 694,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 192,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 783,
+          "authorized_beneficial": 402,
+          "authorized_harmful": 381,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.030286932533278136
+        },
+        "OLS-horizon": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 783,
+          "authorized_beneficial": 402,
+          "authorized_harmful": 381,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.030286932533278136
+        },
+        "Oracle": {
+          "beneficial": 818,
+          "harmful": 782,
+          "neutral": 0,
+          "authorized": 818,
+          "authorized_beneficial": 818,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 13,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 702,
+          "authorized_beneficial": 702,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 144,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 790,
+          "authorized_beneficial": 400,
+          "authorized_harmful": 390,
+          "ever_harmful": true,
+          "first_beneficial": 19,
+          "worst_harm": 0.05159499600115954
+        },
+        "OLS-horizon": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 790,
+          "authorized_beneficial": 400,
+          "authorized_harmful": 390,
+          "ever_harmful": true,
+          "first_beneficial": 19,
+          "worst_harm": 0.05159499600115954
+        },
+        "Oracle": {
+          "beneficial": 816,
+          "harmful": 784,
+          "neutral": 0,
+          "authorized": 816,
+          "authorized_beneficial": 816,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 14,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 724,
+          "authorized_beneficial": 724,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 136,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 783,
+          "authorized_beneficial": 395,
+          "authorized_harmful": 388,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.04964327809282576
+        },
+        "OLS-horizon": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 783,
+          "authorized_beneficial": 395,
+          "authorized_harmful": 388,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.04964327809282576
+        },
+        "Oracle": {
+          "beneficial": 823,
+          "harmful": 777,
+          "neutral": 0,
+          "authorized": 823,
+          "authorized_beneficial": 823,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 15,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 687,
+          "authorized_beneficial": 687,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 186,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 800,
+          "authorized_beneficial": 402,
+          "authorized_harmful": 398,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.046701769225841586
+        },
+        "OLS-horizon": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 800,
+          "authorized_beneficial": 402,
+          "authorized_harmful": 398,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.046701769225841586
+        },
+        "Oracle": {
+          "beneficial": 820,
+          "harmful": 780,
+          "neutral": 0,
+          "authorized": 820,
+          "authorized_beneficial": 820,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 16,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 736,
+          "authorized_beneficial": 736,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 182,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 788,
+          "authorized_beneficial": 410,
+          "authorized_harmful": 378,
+          "ever_harmful": true,
+          "first_beneficial": 4,
+          "worst_harm": 0.03787432463495495
+        },
+        "OLS-horizon": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 788,
+          "authorized_beneficial": 410,
+          "authorized_harmful": 378,
+          "ever_harmful": true,
+          "first_beneficial": 4,
+          "worst_harm": 0.03787432463495495
+        },
+        "Oracle": {
+          "beneficial": 833,
+          "harmful": 767,
+          "neutral": 0,
+          "authorized": 833,
+          "authorized_beneficial": 833,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 17,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 675,
+          "authorized_beneficial": 675,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 174,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 802,
+          "authorized_beneficial": 381,
+          "authorized_harmful": 421,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.042281165226634186
+        },
+        "OLS-horizon": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 802,
+          "authorized_beneficial": 381,
+          "authorized_harmful": 421,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.042281165226634186
+        },
+        "Oracle": {
+          "beneficial": 767,
+          "harmful": 833,
+          "neutral": 0,
+          "authorized": 767,
+          "authorized_beneficial": 767,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 18,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 691,
+          "authorized_beneficial": 691,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 190,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 820,
+          "authorized_beneficial": 403,
+          "authorized_harmful": 417,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.03920767966305436
+        },
+        "OLS-horizon": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 820,
+          "authorized_beneficial": 403,
+          "authorized_harmful": 417,
+          "ever_harmful": true,
+          "first_beneficial": 3,
+          "worst_harm": 0.03920767966305436
+        },
+        "Oracle": {
+          "beneficial": 801,
+          "harmful": 799,
+          "neutral": 0,
+          "authorized": 801,
+          "authorized_beneficial": 801,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 19,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 692,
+          "authorized_beneficial": 692,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 220,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 799,
+          "authorized_beneficial": 403,
+          "authorized_harmful": 396,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03218879824109224
+        },
+        "OLS-horizon": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 799,
+          "authorized_beneficial": 403,
+          "authorized_harmful": 396,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03218879824109224
+        },
+        "Oracle": {
+          "beneficial": 817,
+          "harmful": 783,
+          "neutral": 0,
+          "authorized": 817,
+          "authorized_beneficial": 817,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 20,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 648,
+          "authorized_beneficial": 648,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 216,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 819,
+          "authorized_beneficial": 403,
+          "authorized_harmful": 416,
+          "ever_harmful": true,
+          "first_beneficial": 9,
+          "worst_harm": 0.03934143288531292
+        },
+        "OLS-horizon": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 819,
+          "authorized_beneficial": 403,
+          "authorized_harmful": 416,
+          "ever_harmful": true,
+          "first_beneficial": 9,
+          "worst_harm": 0.03934143288531292
+        },
+        "Oracle": {
+          "beneficial": 770,
+          "harmful": 830,
+          "neutral": 0,
+          "authorized": 770,
+          "authorized_beneficial": 770,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 7,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 21,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 734,
+          "authorized_beneficial": 734,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 199,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 822,
+          "authorized_beneficial": 421,
+          "authorized_harmful": 401,
+          "ever_harmful": true,
+          "first_beneficial": 5,
+          "worst_harm": 0.03420083481932047
+        },
+        "OLS-horizon": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 822,
+          "authorized_beneficial": 421,
+          "authorized_harmful": 401,
+          "ever_harmful": true,
+          "first_beneficial": 5,
+          "worst_harm": 0.03420083481932047
+        },
+        "Oracle": {
+          "beneficial": 840,
+          "harmful": 760,
+          "neutral": 0,
+          "authorized": 840,
+          "authorized_beneficial": 840,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 22,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 662,
+          "authorized_beneficial": 662,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 197,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 805,
+          "authorized_beneficial": 377,
+          "authorized_harmful": 428,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.0428233703219306
+        },
+        "OLS-horizon": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 805,
+          "authorized_beneficial": 377,
+          "authorized_harmful": 428,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.0428233703219306
+        },
+        "Oracle": {
+          "beneficial": 765,
+          "harmful": 835,
+          "neutral": 0,
+          "authorized": 765,
+          "authorized_beneficial": 765,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 23,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 648,
+          "authorized_beneficial": 648,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 147,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 810,
+          "authorized_beneficial": 400,
+          "authorized_harmful": 410,
+          "ever_harmful": true,
+          "first_beneficial": 6,
+          "worst_harm": 0.05124561216672393
+        },
+        "OLS-horizon": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 810,
+          "authorized_beneficial": 400,
+          "authorized_harmful": 410,
+          "ever_harmful": true,
+          "first_beneficial": 6,
+          "worst_harm": 0.05124561216672393
+        },
+        "Oracle": {
+          "beneficial": 777,
+          "harmful": 823,
+          "neutral": 0,
+          "authorized": 777,
+          "authorized_beneficial": 777,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 24,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 598,
+          "authorized_beneficial": 598,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 334,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 776,
+          "authorized_beneficial": 369,
+          "authorized_harmful": 407,
+          "ever_harmful": true,
+          "first_beneficial": 9,
+          "worst_harm": 0.03331096518119367
+        },
+        "OLS-horizon": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 776,
+          "authorized_beneficial": 369,
+          "authorized_harmful": 407,
+          "ever_harmful": true,
+          "first_beneficial": 9,
+          "worst_harm": 0.03331096518119367
+        },
+        "Oracle": {
+          "beneficial": 779,
+          "harmful": 821,
+          "neutral": 0,
+          "authorized": 779,
+          "authorized_beneficial": 779,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 25,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 717,
+          "authorized_beneficial": 717,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 180,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 772,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 374,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03902941727504372
+        },
+        "OLS-horizon": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 772,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 374,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03902941727504372
+        },
+        "Oracle": {
+          "beneficial": 813,
+          "harmful": 787,
+          "neutral": 0,
+          "authorized": 813,
+          "authorized_beneficial": 813,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 26,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 662,
+          "authorized_beneficial": 662,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 225,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 818,
+          "authorized_beneficial": 396,
+          "authorized_harmful": 422,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03853495534931495
+        },
+        "OLS-horizon": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 818,
+          "authorized_beneficial": 396,
+          "authorized_harmful": 422,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03853495534931495
+        },
+        "Oracle": {
+          "beneficial": 772,
+          "harmful": 828,
+          "neutral": 0,
+          "authorized": 772,
+          "authorized_beneficial": 772,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 2,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 27,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 716,
+          "authorized_beneficial": 716,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 201,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 813,
+          "authorized_beneficial": 439,
+          "authorized_harmful": 374,
+          "ever_harmful": true,
+          "first_beneficial": 10,
+          "worst_harm": 0.04119589826019947
+        },
+        "OLS-horizon": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 813,
+          "authorized_beneficial": 439,
+          "authorized_harmful": 374,
+          "ever_harmful": true,
+          "first_beneficial": 10,
+          "worst_harm": 0.04119589826019947
+        },
+        "Oracle": {
+          "beneficial": 829,
+          "harmful": 771,
+          "neutral": 0,
+          "authorized": 829,
+          "authorized_beneficial": 829,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 28,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 673,
+          "authorized_beneficial": 673,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 226,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 826,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 428,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03552680629832425
+        },
+        "OLS-horizon": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 826,
+          "authorized_beneficial": 398,
+          "authorized_harmful": 428,
+          "ever_harmful": true,
+          "first_beneficial": 1,
+          "worst_harm": 0.03552680629832425
+        },
+        "Oracle": {
+          "beneficial": 790,
+          "harmful": 810,
+          "neutral": 0,
+          "authorized": 790,
+          "authorized_beneficial": 790,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    },
+    {
+      "scenario": "logs+online",
+      "seed": 29,
+      "ticks": 1600,
+      "rec": {
+        "KIC": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 734,
+          "authorized_beneficial": 734,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 159,
+          "worst_harm": 0.0
+        },
+        "OLS-pointwise": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 797,
+          "authorized_beneficial": 428,
+          "authorized_harmful": 369,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03136376352759736
+        },
+        "OLS-horizon": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 797,
+          "authorized_beneficial": 428,
+          "authorized_harmful": 369,
+          "ever_harmful": true,
+          "first_beneficial": 2,
+          "worst_harm": 0.03136376352759736
+        },
+        "Oracle": {
+          "beneficial": 843,
+          "harmful": 757,
+          "neutral": 0,
+          "authorized": 843,
+          "authorized_beneficial": 843,
+          "authorized_harmful": 0,
+          "ever_harmful": false,
+          "first_beneficial": 1,
+          "worst_harm": 0.0
+        }
+      }
+    }
+  ]
+}

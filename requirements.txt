@@ -1,0 +1,17 @@
+# Python >= 3.11. Core: the KIC gate, the three plants, every KIC experiment and the tests.
+# These pins reproduce the released result files.
+numpy==2.4.6
+scipy==1.18.1
+pandas==2.3.3
+pandapower==3.5.5        # IEEE 33-bus feeder (tests/test_grid.py needs it)
+networkx==3.7
+matplotlib==3.11.2
+
+# Needed by individual components:
+sympy>=1.12              # interval library of the SCM/MEC envelope certifier
+cryptography>=42         # AES-GCM network testbed
+causal-learn>=0.1.3      # causal discovery for the upstream pipeline (SCM planner)
+
+# The LLM proposer pipeline (distillation, on-device benchmarks) additionally needs torch,
+# transformers, peft, datasets, stable-baselines3 and gymnasium; see constraints.txt for the
+# CUDA builds used. The KIC results do not depend on it.

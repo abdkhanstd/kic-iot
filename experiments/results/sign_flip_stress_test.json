@@ -1,0 +1,23 @@
+{
+  "clean": {
+    "latency_mean": 0.5551907733374313,
+    "latency_std": 0.001023154817181553,
+    "energy_mean": 0.7555658405870906,
+    "energy_std": 0.00038772124898976115,
+    "n_seeds": 10
+  },
+  "corrupted_no_verifier": {
+    "latency_mean": 0.9100565234014896,
+    "latency_std": 0.0005222730389739495,
+    "energy_mean": 0.8547416064187223,
+    "energy_std": 0.00021779853725895174,
+    "n_seeds": 10
+  },
+  "corrupted_with_verifier": {
+    "latency_mean": 0.7437787906288084,
+    "latency_std": 0.0025849560466978594,
+    "energy_mean": 0.8023819525984095,
+    "energy_std": 0.0006492571691979384,
+    "n_seeds": 10
+  }
+}

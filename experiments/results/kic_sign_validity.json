@@ -1,0 +1,241 @@
+{
+  "iot": {
+    "duty_cycle->cost": {
+      "n": 1618,
+      "frac_positive": 0.7478368355995055,
+      "graph_true_signs_rule": 1.0,
+      "wrong_true_signs": 0.2521631644004944,
+      "wrong_true_signs_ci": [
+        0.23160735483397799,
+        0.2738930590165485
+      ],
+      "wrong_corr_signs": 0.2521631644004944,
+      "wrong_corr_signs_ci": [
+        0.23160735483397799,
+        0.2738930590165485
+      ]
+    },
+    "duty_cycle->energy": {
+      "n": 1620,
+      "frac_positive": 1.0,
+      "graph_true_signs_rule": 1.0,
+      "wrong_true_signs": 0.0,
+      "wrong_true_signs_ci": [
+        0.0,
+        0.002365747989212741
+      ],
+      "wrong_corr_signs": 0.0,
+      "wrong_corr_signs_ci": [
+        0.0,
+        0.002365747989212741
+      ]
+    },
+    "duty_cycle->latency": {
+      "n": 1612,
+      "frac_positive": 0.9801488833746899,
+      "graph_true_signs_rule": 1.0,
+      "wrong_true_signs": 0.019851116625310174,
+      "wrong_true_signs_ci": [
+        0.014096168965717646,
+        0.027889134544230365
+      ],
+      "wrong_corr_signs": 0.019851116625310174,
+      "wrong_corr_signs_ci": [
+        0.014096168965717646,
+        0.027889134544230365
+      ]
+    },
+    "duty_cycle->packet_loss": {
+      "n": 1620,
+      "frac_positive": 1.0,
+      "graph_true_signs_rule": 1.0,
+      "wrong_true_signs": 0.0,
+      "wrong_true_signs_ci": [
+        0.0,
+        0.002365747989212741
+      ],
+      "wrong_corr_signs": 0.0,
+      "wrong_corr_signs_ci": [
+        0.0,
+        0.002365747989212741
+      ]
+    },
+    "duty_cycle->reward": {
+      "n": 1620,
+      "frac_positive": 0.043209876543209874,
+      "graph_true_signs_rule": -1.0,
+      "wrong_true_signs": 0.043209876543209874,
+      "wrong_true_signs_ci": [
+        0.03434193846080589,
+        0.05423911525773415
+      ],
+      "wrong_corr_signs": 0.043209876543209874,
+      "wrong_corr_signs_ci": [
+        0.03434193846080589,
+        0.05423911525773415
+      ]
+    },
+    "duty_cycle->throughput": {
+      "n": 1620,
+      "frac_positive": 1.0,
+      "graph_true_signs_rule": -1.0,
+      "wrong_true_signs": 1.0,
+      "wrong_true_signs_ci": [
+        0.9976342520107873,
+        1.0
+      ],
+      "wrong_corr_signs": 1.0,
+      "wrong_corr_signs_ci": [
+        0.9976342520107873,
+        1.0
+      ]
+    },
+    "tx_power->cost": {
+      "n": 1618,
+      "frac_positive": 0.19097651421508036,
+      "graph_true_signs_rule": -1.0,
+      "wrong_true_signs": 0.19097651421508036,
+      "wrong_true_signs_ci": [
+        0.1725641617699112,
+        0.210852813106057
+      ],
+      "wrong_corr_signs": 0.19097651421508036,
+      "wrong_corr_signs_ci": [
+        0.1725641617699112,
+        0.210852813106057
+      ]
+    },
+    "tx_power->energy": {
+      "n": 1620,
+      "frac_positive": 1.0,
+      "graph_true_signs_rule": -1.0,
+      "wrong_true_signs": 1.0,
+      "wrong_true_signs_ci": [
+        0.9976342520107873,
+        1.0
+      ],
+      "wrong_corr_signs": 1.0,
+      "wrong_corr_signs_ci": [
+        0.9976342520107873,
+        1.0
+      ]
+    },
+    "tx_power->latency": {
+      "n": 1620,
+      "frac_positive": 0.0,
+      "graph_true_signs_rule": -1.0,
+      "wrong_true_signs": 0.0,
+      "wrong_true_signs_ci": [
+        0.0,
+        0.002365747989212741
+      ],
+      "wrong_corr_signs": 0.0,
+      "wrong_corr_signs_ci": [
+        0.0,
+        0.002365747989212741
+      ]
+    },
+    "tx_power->packet_loss": {
+      "n": 1620,
+      "frac_positive": 0.0,
+      "graph_true_signs_rule": -1.0,
+      "wrong_true_signs": 0.0,
+      "wrong_true_signs_ci": [
+        0.0,
+        0.002365747989212741
+      ],
+      "wrong_corr_signs": 0.0,
+      "wrong_corr_signs_ci": [
+        0.0,
+        0.002365747989212741
+      ]
+    },
+    "tx_power->reward": {
+      "n": 1620,
+      "frac_positive": 0.9876543209876543,
+      "graph_true_signs_rule": 1.0,
+      "wrong_true_signs": 0.012345679012345678,
+      "wrong_true_signs_ci": [
+        0.00800597423299294,
+        0.01899271825031331
+      ],
+      "wrong_corr_signs": 0.012345679012345678,
+      "wrong_corr_signs_ci": [
+        0.00800597423299294,
+        0.01899271825031331
+      ]
+    },
+    "tx_power->throughput": {
+      "n": 1620,
+      "frac_positive": 1.0,
+      "graph_true_signs_rule": 1.0,
+      "wrong_true_signs": 0.0,
+      "wrong_true_signs_ci": [
+        0.0,
+        0.002365747989212741
+      ],
+      "wrong_corr_signs": 0.0,
+      "wrong_corr_signs_ci": [
+        0.0,
+        0.002365747989212741
+      ]
+    },
+    "_overall": {
+      "n": 12952,
+      "wrong_true_signs": 0.2526250772081532,
+      "ci": [
+        0.24521584331980667,
+        0.2601810117945688
+      ],
+      "wrong_corr_signs": 0.2526250772081532,
+      "ci_corr": [
+        0.24521584331980667,
+        0.2601810117945688
+      ],
+      "sign_reversing_pairs": 1
+    },
+    "_cost": {
+      "n": 3236,
+      "wrong_true_signs": 0.2215698393077874,
+      "ci": [
+        0.20759540690637385,
+        0.2362045615859129
+      ]
+    }
+  },
+  "random_scm": {
+    "n": 1491,
+    "wrong": 533,
+    "by_mech": {
+      "linear": {
+        "wrong": 0.31,
+        "n": 500,
+        "ci": [
+          0.27103822626974466,
+          0.3518591287719986
+        ]
+      },
+      "tanh": {
+        "wrong": 0.3414141414141414,
+        "n": 495,
+        "ci": [
+          0.30100520268464004,
+          0.38426563278698056
+        ]
+      },
+      "sigmoid": {
+        "wrong": 0.4213709677419355,
+        "n": 496,
+        "ci": [
+          0.3786825887302348,
+          0.46526797480829424
+        ]
+      }
+    },
+    "frac_wrong": 0.35747820254862506,
+    "ci": [
+      0.33354613329941635,
+      0.3821428065855856
+    ]
+  }
+}

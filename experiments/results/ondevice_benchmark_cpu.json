@@ -1,0 +1,38 @@
+{
+  "qwen0.5b": {
+    "fp32": {
+      "n_params": 494032768,
+      "param_megabytes": 1976.1,
+      "load_time_sec": 1.62,
+      "mean_sec_per_token": 0.097,
+      "p50_sec_per_token": 0.0965,
+      "tokens_per_sec": 10.31
+    },
+    "bf16": {
+      "n_params": 494032768,
+      "param_megabytes": 988.1,
+      "load_time_sec": 0.14,
+      "mean_sec_per_token": 0.0659,
+      "p50_sec_per_token": 0.0659,
+      "tokens_per_sec": 15.16
+    }
+  },
+  "qwen1.5b": {
+    "fp32": {
+      "n_params": 1543714304,
+      "param_megabytes": 6174.9,
+      "load_time_sec": 0.83,
+      "mean_sec_per_token": 0.2515,
+      "p50_sec_per_token": 0.2515,
+      "tokens_per_sec": 3.98
+    },
+    "bf16": {
+      "n_params": 1543714304,
+      "param_megabytes": 3087.4,
+      "load_time_sec": 0.2,
+      "mean_sec_per_token": 0.1499,
+      "p50_sec_per_token": 0.1502,
+      "tokens_per_sec": 6.67
+    }
+  }
+}

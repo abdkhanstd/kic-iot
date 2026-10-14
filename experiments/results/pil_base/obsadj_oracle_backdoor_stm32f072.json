@@ -1,0 +1,26 @@
+{
+ "boards": {
+  "stm32f072": {
+   "obsadj|oracle_backdoor": {
+    "board": "STM32F072",
+    "core": "Cortex-M0",
+    "mhz": 48,
+    "gate": "obsadj",
+    "ram_limit": 16384,
+    "flash_limit": 131072,
+    "runs": false,
+    "fits": false,
+    "error": [
+     "region `FLASH' overflowed by 217096 bytes",
+     "region `RAM' overflowed by 80864 bytes"
+    ]
+   }
+  }
+ },
+ "host": {
+  "obsadj|oracle_backdoor": {
+   "host": "ticks 800 mismatch 0 first 0",
+   "ecost": 0.3442640635717102
+  }
+ }
+}

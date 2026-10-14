@@ -1,0 +1,2544 @@
+{
+ "agg": {
+  "none|kic": {
+   "auth": 195,
+   "auth_harm": 0,
+   "auth_benef": 194,
+   "gain": 8.365782412020113,
+   "bar": 0.036452461480646375,
+   "benef_den": 5322,
+   "har": 0.0
+  },
+  "none|strict": {
+   "auth": 28,
+   "auth_harm": 0,
+   "auth_benef": 28,
+   "gain": 1.6548824028589109,
+   "bar": 0.005261180007515971,
+   "benef_den": 5322,
+   "har": 0.0
+  },
+  "none|filter": {
+   "auth": 116,
+   "auth_harm": 0,
+   "auth_benef": 116,
+   "gain": 6.146218645597339,
+   "bar": 0.022785307405224907,
+   "benef_den": 5091,
+   "har": 0.0
+  },
+  "none|strict_filter": {
+   "auth": 17,
+   "auth_harm": 0,
+   "auth_benef": 17,
+   "gain": 1.0040283607300755,
+   "bar": 0.003339226085248478,
+   "benef_den": 5091,
+   "har": 0.0
+  },
+  "none|totals": {
+   "harm": 6520,
+   "benef": 5322,
+   "benef_safe": 5091,
+   "harm_safe": 5827,
+   "prop_unsafe": 924,
+   "kic_auth_unsafe": 79,
+   "strict_auth_unsafe": 11.0
+  },
+  "a1_telemetry|kic": {
+   "auth": 195,
+   "auth_harm": 0,
+   "auth_benef": 194,
+   "gain": 8.365782412020113,
+   "bar": 0.036452461480646375,
+   "benef_den": 5322,
+   "har": 0.0
+  },
+  "a1_telemetry|strict": {
+   "auth": 28,
+   "auth_harm": 0,
+   "auth_benef": 28,
+   "gain": 1.6548824028589109,
+   "bar": 0.005261180007515971,
+   "benef_den": 5322,
+   "har": 0.0
+  },
+  "a1_telemetry|filter": {
+   "auth": 116,
+   "auth_harm": 0,
+   "auth_benef": 116,
+   "gain": 6.146218645597339,
+   "bar": 0.022785307405224907,
+   "benef_den": 5091,
+   "har": 0.0
+  },
+  "a1_telemetry|strict_filter": {
+   "auth": 17,
+   "auth_harm": 0,
+   "auth_benef": 17,
+   "gain": 1.0040283607300755,
+   "bar": 0.003339226085248478,
+   "benef_den": 5091,
+   "har": 0.0
+  },
+  "a1_telemetry|totals": {
+   "harm": 6520,
+   "benef": 5322,
+   "benef_safe": 5091,
+   "harm_safe": 5827,
+   "prop_unsafe": 924,
+   "kic_auth_unsafe": 79,
+   "strict_auth_unsafe": 11.0
+  },
+  "spoof_blind|kic": {
+   "auth": 207,
+   "auth_harm": 0,
+   "auth_benef": 205,
+   "gain": 9.185149835866005,
+   "bar": 0.03851935362645622,
+   "benef_den": 5322,
+   "har": 0.0
+  },
+  "spoof_blind|strict": {
+   "auth": 31,
+   "auth_harm": 0,
+   "auth_benef": 31,
+   "gain": 1.8289689999535588,
+   "bar": 0.005824877865464111,
+   "benef_den": 5322,
+   "har": 0.0
+  },
+  "spoof_blind|filter": {
+   "auth": 120,
+   "auth_harm": 0,
+   "auth_benef": 120,
+   "gain": 6.547837114202023,
+   "bar": 0.02357100766057749,
+   "benef_den": 5091,
+   "har": 0.0
+  },
+  "spoof_blind|strict_filter": {
+   "auth": 20,
+   "auth_harm": 0,
+   "auth_benef": 20,
+   "gain": 1.1781149578247236,
+   "bar": 0.003928501276762915,
+   "benef_den": 5091,
+   "har": 0.0
+  },
+  "spoof_blind|totals": {
+   "harm": 6520,
+   "benef": 5322,
+   "benef_safe": 5091,
+   "harm_safe": 5827,
+   "prop_unsafe": 924,
+   "kic_auth_unsafe": 87,
+   "strict_auth_unsafe": 11.0
+  },
+  "a1_spoof|kic": {
+   "auth": 207,
+   "auth_harm": 0,
+   "auth_benef": 205,
+   "gain": 9.185149835866005,
+   "bar": 0.03851935362645622,
+   "benef_den": 5322,
+   "har": 0.0
+  },
+  "a1_spoof|strict": {
+   "auth": 31,
+   "auth_harm": 0,
+   "auth_benef": 31,
+   "gain": 1.8289689999535588,
+   "bar": 0.005824877865464111,
+   "benef_den": 5322,
+   "har": 0.0
+  },
+  "a1_spoof|filter": {
+   "auth": 120,
+   "auth_harm": 0,
+   "auth_benef": 120,
+   "gain": 6.547837114202023,
+   "bar": 0.02357100766057749,
+   "benef_den": 5091,
+   "har": 0.0
+  },
+  "a1_spoof|strict_filter": {
+   "auth": 20,
+   "auth_harm": 0,
+   "auth_benef": 20,
+   "gain": 1.1781149578247236,
+   "bar": 0.003928501276762915,
+   "benef_den": 5091,
+   "har": 0.0
+  },
+  "a1_spoof|totals": {
+   "harm": 6520,
+   "benef": 5322,
+   "benef_safe": 5091,
+   "harm_safe": 5827,
+   "prop_unsafe": 924,
+   "kic_auth_unsafe": 87,
+   "strict_auth_unsafe": 11.0
+  }
+ },
+ "rows": [
+  {
+   "scen": "none",
+   "seed": 0,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 379,
+    "benef": 421,
+    "benef_safe": 421,
+    "harm_safe": 294,
+    "prop_unsafe": 85,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 1,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 405,
+    "benef": 395,
+    "benef_safe": 395,
+    "harm_safe": 295,
+    "prop_unsafe": 110,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 2,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 404,
+    "benef": 396,
+    "benef_safe": 396,
+    "harm_safe": 404,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 3,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 390,
+    "benef": 407,
+    "benef_safe": 407,
+    "harm_safe": 390,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 4,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 402,
+    "benef": 398,
+    "benef_safe": 398,
+    "harm_safe": 401,
+    "prop_unsafe": 1,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 5,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 466,
+    "benef": 325,
+    "benef_safe": 325,
+    "harm_safe": 466,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 6,
+   "rec": {
+    "kic": {
+     "auth": 101,
+     "auth_harm": 0,
+     "auth_benef": 100,
+     "gain": 3.865659479136179
+    },
+    "strict": {
+     "auth": 17,
+     "auth_harm": 0,
+     "auth_benef": 17,
+     "gain": 0.9998457988450177
+    },
+    "filter": {
+     "auth": 22,
+     "auth_harm": 0,
+     "auth_benef": 22,
+     "gain": 1.6460957127134048
+    },
+    "strict_filter": {
+     "auth": 6,
+     "auth_harm": 0,
+     "auth_benef": 6,
+     "gain": 0.34899175671618243
+    }
+   },
+   "tot": {
+    "harm": 416,
+    "benef": 384,
+    "benef_safe": 153,
+    "harm_safe": 0,
+    "prop_unsafe": 647,
+    "kic_auth_unsafe": 79,
+    "strict_auth_unsafe": 11.0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 7,
+   "rec": {
+    "kic": {
+     "auth": 94,
+     "auth_harm": 0,
+     "auth_benef": 94,
+     "gain": 4.500122932883935
+    },
+    "strict": {
+     "auth": 11,
+     "auth_harm": 0,
+     "auth_benef": 11,
+     "gain": 0.6550366040138931
+    },
+    "filter": {
+     "auth": 94,
+     "auth_harm": 0,
+     "auth_benef": 94,
+     "gain": 4.500122932883935
+    },
+    "strict_filter": {
+     "auth": 11,
+     "auth_harm": 0,
+     "auth_benef": 11,
+     "gain": 0.6550366040138931
+    }
+   },
+   "tot": {
+    "harm": 413,
+    "benef": 387,
+    "benef_safe": 387,
+    "harm_safe": 332,
+    "prop_unsafe": 81,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0.0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 8,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 496,
+    "benef": 249,
+    "benef_safe": 249,
+    "harm_safe": 496,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 9,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 445,
+    "benef": 347,
+    "benef_safe": 347,
+    "harm_safe": 445,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 10,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 433,
+    "benef": 359,
+    "benef_safe": 359,
+    "harm_safe": 433,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 11,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 402,
+    "benef": 395,
+    "benef_safe": 395,
+    "harm_safe": 402,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 12,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 574,
+    "benef": 178,
+    "benef_safe": 178,
+    "harm_safe": 574,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 13,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 508,
+    "benef": 268,
+    "benef_safe": 268,
+    "harm_safe": 508,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "none",
+   "seed": 14,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 387,
+    "benef": 413,
+    "benef_safe": 413,
+    "harm_safe": 387,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 0,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 379,
+    "benef": 421,
+    "benef_safe": 421,
+    "harm_safe": 294,
+    "prop_unsafe": 85,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 1,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 405,
+    "benef": 395,
+    "benef_safe": 395,
+    "harm_safe": 295,
+    "prop_unsafe": 110,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 2,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 404,
+    "benef": 396,
+    "benef_safe": 396,
+    "harm_safe": 404,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 3,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 390,
+    "benef": 407,
+    "benef_safe": 407,
+    "harm_safe": 390,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 4,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 402,
+    "benef": 398,
+    "benef_safe": 398,
+    "harm_safe": 401,
+    "prop_unsafe": 1,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 5,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 466,
+    "benef": 325,
+    "benef_safe": 325,
+    "harm_safe": 466,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 6,
+   "rec": {
+    "kic": {
+     "auth": 101,
+     "auth_harm": 0,
+     "auth_benef": 100,
+     "gain": 3.865659479136179
+    },
+    "strict": {
+     "auth": 17,
+     "auth_harm": 0,
+     "auth_benef": 17,
+     "gain": 0.9998457988450177
+    },
+    "filter": {
+     "auth": 22,
+     "auth_harm": 0,
+     "auth_benef": 22,
+     "gain": 1.6460957127134048
+    },
+    "strict_filter": {
+     "auth": 6,
+     "auth_harm": 0,
+     "auth_benef": 6,
+     "gain": 0.34899175671618243
+    }
+   },
+   "tot": {
+    "harm": 416,
+    "benef": 384,
+    "benef_safe": 153,
+    "harm_safe": 0,
+    "prop_unsafe": 647,
+    "kic_auth_unsafe": 79,
+    "strict_auth_unsafe": 11.0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 7,
+   "rec": {
+    "kic": {
+     "auth": 94,
+     "auth_harm": 0,
+     "auth_benef": 94,
+     "gain": 4.500122932883935
+    },
+    "strict": {
+     "auth": 11,
+     "auth_harm": 0,
+     "auth_benef": 11,
+     "gain": 0.6550366040138931
+    },
+    "filter": {
+     "auth": 94,
+     "auth_harm": 0,
+     "auth_benef": 94,
+     "gain": 4.500122932883935
+    },
+    "strict_filter": {
+     "auth": 11,
+     "auth_harm": 0,
+     "auth_benef": 11,
+     "gain": 0.6550366040138931
+    }
+   },
+   "tot": {
+    "harm": 413,
+    "benef": 387,
+    "benef_safe": 387,
+    "harm_safe": 332,
+    "prop_unsafe": 81,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0.0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 8,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 496,
+    "benef": 249,
+    "benef_safe": 249,
+    "harm_safe": 496,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 9,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 445,
+    "benef": 347,
+    "benef_safe": 347,
+    "harm_safe": 445,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 10,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 433,
+    "benef": 359,
+    "benef_safe": 359,
+    "harm_safe": 433,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 11,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 402,
+    "benef": 395,
+    "benef_safe": 395,
+    "harm_safe": 402,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 12,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 574,
+    "benef": 178,
+    "benef_safe": 178,
+    "harm_safe": 574,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 13,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 508,
+    "benef": 268,
+    "benef_safe": 268,
+    "harm_safe": 508,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_telemetry",
+   "seed": 14,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 387,
+    "benef": 413,
+    "benef_safe": 413,
+    "harm_safe": 387,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 0,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 379,
+    "benef": 421,
+    "benef_safe": 421,
+    "harm_safe": 294,
+    "prop_unsafe": 85,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 1,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 405,
+    "benef": 395,
+    "benef_safe": 395,
+    "harm_safe": 295,
+    "prop_unsafe": 110,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 2,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 404,
+    "benef": 396,
+    "benef_safe": 396,
+    "harm_safe": 404,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 3,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 390,
+    "benef": 407,
+    "benef_safe": 407,
+    "harm_safe": 390,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 4,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 402,
+    "benef": 398,
+    "benef_safe": 398,
+    "harm_safe": 401,
+    "prop_unsafe": 1,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 5,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 466,
+    "benef": 325,
+    "benef_safe": 325,
+    "harm_safe": 466,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 6,
+   "rec": {
+    "kic": {
+     "auth": 111,
+     "auth_harm": 0,
+     "auth_benef": 109,
+     "gain": 4.451456015450896
+    },
+    "strict": {
+     "auth": 17,
+     "auth_harm": 0,
+     "auth_benef": 17,
+     "gain": 0.9998457988450177
+    },
+    "filter": {
+     "auth": 24,
+     "auth_harm": 0,
+     "auth_benef": 24,
+     "gain": 1.8141432937869149
+    },
+    "strict_filter": {
+     "auth": 6,
+     "auth_harm": 0,
+     "auth_benef": 6,
+     "gain": 0.34899175671618243
+    }
+   },
+   "tot": {
+    "harm": 416,
+    "benef": 384,
+    "benef_safe": 153,
+    "harm_safe": 0,
+    "prop_unsafe": 647,
+    "kic_auth_unsafe": 87,
+    "strict_auth_unsafe": 11.0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 7,
+   "rec": {
+    "kic": {
+     "auth": 96,
+     "auth_harm": 0,
+     "auth_benef": 96,
+     "gain": 4.733693820415109
+    },
+    "strict": {
+     "auth": 14,
+     "auth_harm": 0,
+     "auth_benef": 14,
+     "gain": 0.8291232011085412
+    },
+    "filter": {
+     "auth": 96,
+     "auth_harm": 0,
+     "auth_benef": 96,
+     "gain": 4.733693820415109
+    },
+    "strict_filter": {
+     "auth": 14,
+     "auth_harm": 0,
+     "auth_benef": 14,
+     "gain": 0.8291232011085412
+    }
+   },
+   "tot": {
+    "harm": 413,
+    "benef": 387,
+    "benef_safe": 387,
+    "harm_safe": 332,
+    "prop_unsafe": 81,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0.0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 8,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 496,
+    "benef": 249,
+    "benef_safe": 249,
+    "harm_safe": 496,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 9,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 445,
+    "benef": 347,
+    "benef_safe": 347,
+    "harm_safe": 445,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 10,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 433,
+    "benef": 359,
+    "benef_safe": 359,
+    "harm_safe": 433,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 11,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 402,
+    "benef": 395,
+    "benef_safe": 395,
+    "harm_safe": 402,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 12,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 574,
+    "benef": 178,
+    "benef_safe": 178,
+    "harm_safe": 574,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 13,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 508,
+    "benef": 268,
+    "benef_safe": 268,
+    "harm_safe": 508,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "spoof_blind",
+   "seed": 14,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 387,
+    "benef": 413,
+    "benef_safe": 413,
+    "harm_safe": 387,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 0,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 379,
+    "benef": 421,
+    "benef_safe": 421,
+    "harm_safe": 294,
+    "prop_unsafe": 85,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 1,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 405,
+    "benef": 395,
+    "benef_safe": 395,
+    "harm_safe": 295,
+    "prop_unsafe": 110,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 2,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 404,
+    "benef": 396,
+    "benef_safe": 396,
+    "harm_safe": 404,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 3,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 390,
+    "benef": 407,
+    "benef_safe": 407,
+    "harm_safe": 390,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 4,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 402,
+    "benef": 398,
+    "benef_safe": 398,
+    "harm_safe": 401,
+    "prop_unsafe": 1,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 5,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 466,
+    "benef": 325,
+    "benef_safe": 325,
+    "harm_safe": 466,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 6,
+   "rec": {
+    "kic": {
+     "auth": 111,
+     "auth_harm": 0,
+     "auth_benef": 109,
+     "gain": 4.451456015450896
+    },
+    "strict": {
+     "auth": 17,
+     "auth_harm": 0,
+     "auth_benef": 17,
+     "gain": 0.9998457988450177
+    },
+    "filter": {
+     "auth": 24,
+     "auth_harm": 0,
+     "auth_benef": 24,
+     "gain": 1.8141432937869149
+    },
+    "strict_filter": {
+     "auth": 6,
+     "auth_harm": 0,
+     "auth_benef": 6,
+     "gain": 0.34899175671618243
+    }
+   },
+   "tot": {
+    "harm": 416,
+    "benef": 384,
+    "benef_safe": 153,
+    "harm_safe": 0,
+    "prop_unsafe": 647,
+    "kic_auth_unsafe": 87,
+    "strict_auth_unsafe": 11.0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 7,
+   "rec": {
+    "kic": {
+     "auth": 96,
+     "auth_harm": 0,
+     "auth_benef": 96,
+     "gain": 4.733693820415109
+    },
+    "strict": {
+     "auth": 14,
+     "auth_harm": 0,
+     "auth_benef": 14,
+     "gain": 0.8291232011085412
+    },
+    "filter": {
+     "auth": 96,
+     "auth_harm": 0,
+     "auth_benef": 96,
+     "gain": 4.733693820415109
+    },
+    "strict_filter": {
+     "auth": 14,
+     "auth_harm": 0,
+     "auth_benef": 14,
+     "gain": 0.8291232011085412
+    }
+   },
+   "tot": {
+    "harm": 413,
+    "benef": 387,
+    "benef_safe": 387,
+    "harm_safe": 332,
+    "prop_unsafe": 81,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0.0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 8,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 496,
+    "benef": 249,
+    "benef_safe": 249,
+    "harm_safe": 496,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 9,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 445,
+    "benef": 347,
+    "benef_safe": 347,
+    "harm_safe": 445,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 10,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 433,
+    "benef": 359,
+    "benef_safe": 359,
+    "harm_safe": 433,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 11,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 402,
+    "benef": 395,
+    "benef_safe": 395,
+    "harm_safe": 402,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 12,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 574,
+    "benef": 178,
+    "benef_safe": 178,
+    "harm_safe": 574,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 13,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 508,
+    "benef": 268,
+    "benef_safe": 268,
+    "harm_safe": 508,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  },
+  {
+   "scen": "a1_spoof",
+   "seed": 14,
+   "rec": {
+    "kic": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    },
+    "strict_filter": {
+     "auth": 0,
+     "auth_harm": 0,
+     "auth_benef": 0,
+     "gain": 0.0
+    }
+   },
+   "tot": {
+    "harm": 387,
+    "benef": 413,
+    "benef_safe": 413,
+    "harm_safe": 387,
+    "prop_unsafe": 0,
+    "kic_auth_unsafe": 0,
+    "strict_auth_unsafe": 0
+   }
+  }
+ ],
+ "decisions_match_stored": true,
+ "config": {
+  "seeds": 15,
+  "dwell": 800,
+  "scenarios": [
+   "none",
+   "a1_telemetry",
+   "spoof_blind",
+   "a1_spoof"
+  ],
+  "v_max": 1.05,
+  "s_rated": 1.2,
+  "eps": 3.955791691932867e-05,
+  "Gbar": 131.0,
+  "Rbar": 13.4,
+  "margin": 0.0005300760867190042,
+  "spare": 0.005635825767135888
+ }
+}

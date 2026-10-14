@@ -1,0 +1,27 @@
+{
+  "tag": "clean",
+  "adapter": "models/checkpoints/qwen05b-causal",
+  "state_source": "onpolicy",
+  "mean_duty_cycle": 0.02700000000000001,
+  "mean_tx_power": 0.795,
+  "frac_steps_at_actuator_limit": 0.975,
+  "n_states": 120,
+  "n_scored": 120,
+  "n_unscorable": 0,
+  "overall_accept_rate": 0.5,
+  "base_rate_claims_correct": 0.025,
+  "confusion": {
+    "kept_correct": 3,
+    "kept_wrong": 57,
+    "rejected_correct": 0,
+    "rejected_wrong": 60
+  },
+  "precision_of_accepted": 0.05,
+  "recall_of_correct": 1.0,
+  "specificity_caught_wrong": 0.5128205128205128,
+  "false_rejection_rate": 0.0,
+  "reason_counts": {
+    "ok": 60,
+    "CAUSAL_CHECK_FAILED": 60
+  }
+}

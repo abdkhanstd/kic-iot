@@ -1,0 +1,39 @@
+{
+ "boards": {
+  "fe310": {
+   "obsci_lite|oracle_backdoor": {
+    "board": "SiFive FE310 (HiFive1)",
+    "core": "RV32IMAC",
+    "mhz": 320,
+    "gate": "obsci_lite",
+    "ram_limit": 16384,
+    "flash_limit": 4194304,
+    "runs": true,
+    "images": 1,
+    "done": true,
+    "mismatch": 0,
+    "ticks_executed": 799,
+    "stack_bytes": 940,
+    "flash_bytes": 43980,
+    "hist_bytes": 28800,
+    "live_bytes": 4800,
+    "ram_static_bytes": 5848,
+    "ram_bytes": 6788,
+    "fits": true,
+    "insn_median": 9017356.0,
+    "insn_p99": 9074958.8,
+    "insn_max": 9095071.0,
+    "us_median_cpi1": 28179.2375,
+    "us_max_cpi1": 28422.096875,
+    "us_median_cpi2": 56358.475,
+    "us_max_cpi2": 56844.19375
+   }
+  }
+ },
+ "host": {
+  "obsci_lite|oracle_backdoor": {
+   "host": "ticks 800 mismatch 0 first 0",
+   "ecost": 0.38316528124243304
+  }
+ }
+}

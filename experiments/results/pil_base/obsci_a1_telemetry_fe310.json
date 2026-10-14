@@ -1,0 +1,25 @@
+{
+ "boards": {
+  "fe310": {
+   "obsci|a1_telemetry": {
+    "board": "SiFive FE310 (HiFive1)",
+    "core": "RV32IMAC",
+    "mhz": 320,
+    "gate": "obsci",
+    "ram_limit": 16384,
+    "flash_limit": 4194304,
+    "runs": false,
+    "fits": false,
+    "error": [
+     "region `RAM' overflowed by 80668 bytes"
+    ]
+   }
+  }
+ },
+ "host": {
+  "obsci|a1_telemetry": {
+   "host": "ticks 800 mismatch 0 first 0",
+   "ecost": 0.7197674440012726
+  }
+ }
+}

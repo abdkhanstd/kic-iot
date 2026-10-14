@@ -1,0 +1,39 @@
+{
+ "boards": {
+  "stm32f407": {
+   "obsadj|oracle_backdoor": {
+    "board": "STM32F407",
+    "core": "Cortex-M4F",
+    "mhz": 168,
+    "gate": "obsadj",
+    "ram_limit": 131072,
+    "flash_limit": 1048576,
+    "runs": true,
+    "images": 1,
+    "done": true,
+    "mismatch": 0,
+    "ticks_executed": 799,
+    "stack_bytes": 880,
+    "flash_bytes": 296240,
+    "hist_bytes": 288000,
+    "live_bytes": 96000,
+    "ram_static_bytes": 97248,
+    "ram_bytes": 98128,
+    "fits": true,
+    "insn_median": 520.0,
+    "insn_p99": 47316827.63999999,
+    "insn_max": 47995900.0,
+    "us_median_cpi1": 3.0952380952380953,
+    "us_max_cpi1": 285689.88095238095,
+    "us_median_cpi2": 6.190476190476191,
+    "us_max_cpi2": 571379.7619047619
+   }
+  }
+ },
+ "host": {
+  "obsadj|oracle_backdoor": {
+   "host": "ticks 800 mismatch 0 first 0",
+   "ecost": 0.3442640635717102
+  }
+ }
+}

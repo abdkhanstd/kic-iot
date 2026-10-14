@@ -1,0 +1,10 @@
+MEMORY { FLASH (rx) : ORIGIN = @FLASH_ORIGIN@, LENGTH = @FLASH_LEN@
+         RAM (rwx)  : ORIGIN = @RAM_ORIGIN@,   LENGTH = @RAM_LEN@ }
+_estack = ORIGIN(RAM) + LENGTH(RAM);
+SECTIONS {
+  .text : { KEEP(*(.isr_vector)) KEEP(*(.text.init)) *(.text*) *(.rodata*) *(.srodata*) . = ALIGN(4); } > FLASH
+  _sidata = LOADADDR(.data);
+  .data : { _sdata = .; *(.data*) *(.sdata*) . = ALIGN(4); _edata = .; } > RAM AT > FLASH
+  .bss (NOLOAD) : { _sbss = .; *(.bss*) *(.sbss*) *(COMMON) . = ALIGN(4); _ebss = .; } > RAM
+  __global_pointer$ = _sdata + 0x800;
+}

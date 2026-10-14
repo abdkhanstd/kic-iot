@@ -1,0 +1,202 @@
+{
+  "n_trials": 10,
+  "fused_f1_mean": 0.4670952712603492,
+  "fused_f1_std": 0.030237229030628705,
+  "vs_best_site": {
+    "baseline_mean": 0.5067377428307124,
+    "baseline_std": 0.01943968521189376,
+    "delta_mean": -0.039642471570363005,
+    "delta_std": 0.027352754346548224,
+    "frac_trials_fusion_wins": 0.1
+  },
+  "vs_mean_site": {
+    "baseline_mean": 0.45461942245952713,
+    "baseline_std": 0.02600045533491445,
+    "delta_mean": 0.012475848800822137,
+    "delta_std": 0.03867608780538706,
+    "frac_trials_fusion_wins": 0.4
+  },
+  "vs_worst_site": {
+    "baseline_mean": 0.4011777493606138,
+    "baseline_std": 0.036828230873813934,
+    "delta_mean": 0.06591752189973546,
+    "delta_std": 0.04672772437413944,
+    "frac_trials_fusion_wins": 0.9
+  },
+  "first_trial_detail": {
+    "per_site": {
+      "cluster_A_urban_dense": {
+        "n_samples": 6000,
+        "shd": 21,
+        "sid": 44,
+        "precision": 0.5217391304347826,
+        "recall": 0.48,
+        "f1": 0.4999999999999999,
+        "n_true_edges": 25,
+        "n_est_edges": 23
+      },
+      "cluster_B_rural_sparse": {
+        "n_samples": 4000,
+        "shd": 29,
+        "sid": 36,
+        "precision": 0.36,
+        "recall": 0.36,
+        "f1": 0.36,
+        "n_true_edges": 25,
+        "n_est_edges": 25
+      },
+      "cluster_C_low_sample": {
+        "n_samples": 800,
+        "shd": 30,
+        "sid": 46,
+        "precision": 0.34615384615384615,
+        "recall": 0.36,
+        "f1": 0.35294117647058826,
+        "n_true_edges": 25,
+        "n_est_edges": 26
+      }
+    },
+    "fused": {
+      "shd": 29,
+      "sid": 34,
+      "precision": 0.40625,
+      "recall": 0.52,
+      "f1": 0.45614035087719296,
+      "n_true_edges": 25,
+      "n_est_edges": 32
+    },
+    "best_single_site_f1": 0.4999999999999999,
+    "mean_single_site_f1": 0.40431372549019606,
+    "worst_single_site_f1": 0.35294117647058826,
+    "fused_edges": [
+      [
+        "interference",
+        "energy"
+      ],
+      [
+        "interference",
+        "collision_rate"
+      ],
+      [
+        "interference",
+        "throughput"
+      ],
+      [
+        "interference",
+        "battery"
+      ],
+      [
+        "link_quality",
+        "throughput"
+      ],
+      [
+        "arrival_rate",
+        "throughput"
+      ],
+      [
+        "arrival_rate",
+        "battery"
+      ],
+      [
+        "arrival_rate",
+        "cpu_load"
+      ],
+      [
+        "arrival_rate",
+        "queue_length"
+      ],
+      [
+        "duty_cycle",
+        "throughput"
+      ],
+      [
+        "duty_cycle",
+        "energy"
+      ],
+      [
+        "duty_cycle",
+        "cpu_load"
+      ],
+      [
+        "tx_power",
+        "queue_length"
+      ],
+      [
+        "tx_power",
+        "energy"
+      ],
+      [
+        "collision_rate",
+        "retransmissions"
+      ],
+      [
+        "collision_rate",
+        "cpu_load"
+      ],
+      [
+        "collision_rate",
+        "energy"
+      ],
+      [
+        "collision_rate",
+        "packet_loss"
+      ],
+      [
+        "retransmissions",
+        "cpu_load"
+      ],
+      [
+        "retransmissions",
+        "latency"
+      ],
+      [
+        "retransmissions",
+        "energy"
+      ],
+      [
+        "retransmissions",
+        "packet_loss"
+      ],
+      [
+        "queue_length",
+        "throughput"
+      ],
+      [
+        "queue_length",
+        "cpu_load"
+      ],
+      [
+        "queue_length",
+        "energy"
+      ],
+      [
+        "cpu_load",
+        "energy"
+      ],
+      [
+        "cpu_load",
+        "packet_loss"
+      ],
+      [
+        "latency",
+        "queue_length"
+      ],
+      [
+        "latency",
+        "cpu_load"
+      ],
+      [
+        "latency",
+        "packet_loss"
+      ],
+      [
+        "throughput",
+        "energy"
+      ],
+      [
+        "packet_loss",
+        "energy"
+      ]
+    ]
+  }
+}

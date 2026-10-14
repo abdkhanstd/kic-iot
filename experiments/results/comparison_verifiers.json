@@ -1,0 +1,54 @@
+{
+  "n_scored": 80,
+  "n_states": 80,
+  "methods": {
+    "LLM self-consistency": {
+      "name": "LLM self-consistency",
+      "rejection_rate": 0.55,
+      "kept_correct": 3,
+      "kept_wrong": 33,
+      "rejected_correct": 0,
+      "rejected_wrong": 44,
+      "precision": 0.08333333333333333,
+      "recall": 1.0,
+      "specificity": 0.5714285714285714,
+      "f1": 0.15384615384615385
+    },
+    "LLM-as-judge": {
+      "name": "LLM-as-judge",
+      "rejection_rate": 0.0,
+      "kept_correct": 3,
+      "kept_wrong": 77,
+      "rejected_correct": 0,
+      "rejected_wrong": 0,
+      "precision": 0.0375,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.07228915662650602
+    },
+    "Graph reachability only": {
+      "name": "Graph reachability only",
+      "rejection_rate": 0.0,
+      "kept_correct": 3,
+      "kept_wrong": 77,
+      "rejected_correct": 0,
+      "rejected_wrong": 0,
+      "precision": 0.0375,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.07228915662650602
+    },
+    "Causal verifier (ours)": {
+      "name": "Causal verifier (ours)",
+      "rejection_rate": 0.9625,
+      "kept_correct": 3,
+      "kept_wrong": 0,
+      "rejected_correct": 0,
+      "rejected_wrong": 77,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0
+    }
+  }
+}

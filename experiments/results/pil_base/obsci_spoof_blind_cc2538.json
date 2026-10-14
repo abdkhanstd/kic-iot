@@ -1,0 +1,39 @@
+{
+ "boards": {
+  "cc2538": {
+   "obsci|spoof_blind": {
+    "board": "TI CC2538 (Zolertia Firefly)",
+    "core": "Cortex-M3",
+    "mhz": 32,
+    "gate": "obsci",
+    "ram_limit": 32768,
+    "flash_limit": 524288,
+    "runs": true,
+    "images": 1,
+    "done": true,
+    "mismatch": 0,
+    "ticks_executed": 799,
+    "stack_bytes": 880,
+    "flash_bytes": 295936,
+    "hist_bytes": 288000,
+    "live_bytes": 96000,
+    "ram_static_bytes": 97248,
+    "ram_bytes": 98128,
+    "fits": false,
+    "insn_median": 44129656.0,
+    "insn_p99": 45895535.58,
+    "insn_max": 45931238.0,
+    "us_median_cpi1": 1379051.75,
+    "us_max_cpi1": 1435351.1875,
+    "us_median_cpi2": 2758103.5,
+    "us_max_cpi2": 2870702.375
+   }
+  }
+ },
+ "host": {
+  "obsci|spoof_blind": {
+   "host": "ticks 800 mismatch 0 first 0",
+   "ecost": 0.41767672712256954
+  }
+ }
+}

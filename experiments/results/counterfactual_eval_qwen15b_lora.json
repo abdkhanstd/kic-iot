@@ -1,0 +1,15 @@
+{
+  "tag": "qwen15b_lora",
+  "base_model": "~/.cache/modelscope/models/Qwen--Qwen2.5-1.5B-Instruct/snapshots/master",
+  "adapter": "models/checkpoints/qwen15b-causal",
+  "use_verifier": false,
+  "n_probes": 100,
+  "parse_rate": 1.0,
+  "n_rejected": 0,
+  "mae": {
+    "latency": 0.09474000000000002,
+    "throughput": 0.079666,
+    "packet_loss": 0.129445,
+    "energy": 0.10038000000000002
+  }
+}

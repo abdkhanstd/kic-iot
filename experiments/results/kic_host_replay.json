@@ -1,0 +1,22 @@
+{
+ "clean|0": "ticks 800 mismatch 0 first 0 resets 2 overflow 0 anchors 1",
+ "clean|1": "ticks 800 mismatch 0 first 0 resets 0 overflow 0 anchors 1",
+ "clean|2": "ticks 800 mismatch 0 first 0 resets 2 overflow 0 anchors 1",
+ "clean|3": "ticks 800 mismatch 0 first 0 resets 1 overflow 0 anchors 1",
+ "backdoor_lie|0": "ticks 800 mismatch 0 first 0 resets 2 overflow 0 anchors 1",
+ "backdoor_lie|1": "ticks 800 mismatch 0 first 0 resets 0 overflow 0 anchors 1",
+ "backdoor_lie|2": "ticks 800 mismatch 0 first 0 resets 2 overflow 0 anchors 1",
+ "backdoor_lie|3": "ticks 800 mismatch 0 first 0 resets 1 overflow 0 anchors 1",
+ "a1_telemetry|0": "ticks 800 mismatch 0 first 0 resets 2 overflow 0 anchors 1",
+ "a1_telemetry|1": "ticks 800 mismatch 0 first 0 resets 0 overflow 0 anchors 1",
+ "a1_telemetry|2": "ticks 800 mismatch 0 first 0 resets 2 overflow 0 anchors 1",
+ "a1_telemetry|3": "ticks 800 mismatch 0 first 0 resets 1 overflow 0 anchors 1",
+ "spoof_blind|0": "ticks 800 mismatch 0 first 0 resets 2 overflow 0 anchors 1",
+ "spoof_blind|1": "ticks 800 mismatch 0 first 0 resets 0 overflow 0 anchors 2",
+ "spoof_blind|2": "ticks 800 mismatch 0 first 0 resets 2 overflow 0 anchors 1",
+ "spoof_blind|3": "ticks 800 mismatch 0 first 0 resets 1 overflow 0 anchors 1",
+ "oracle|0": "ticks 800 mismatch 0 first 0 resets 2 overflow 0 anchors 1",
+ "oracle|1": "ticks 800 mismatch 0 first 0 resets 0 overflow 0 anchors 1",
+ "oracle|2": "ticks 800 mismatch 0 first 0 resets 2 overflow 0 anchors 1",
+ "oracle|3": "ticks 800 mismatch 0 first 0 resets 1 overflow 0 anchors 1"
+}

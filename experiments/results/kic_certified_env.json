@@ -1,0 +1,88 @@
+{
+ "scm": {
+  "k_sigma": 6.0,
+  "tail": 1.5785402320603113e-08,
+  "free_G": [
+   1.4603320312499999,
+   2.188748046875
+  ],
+  "free_L": [
+   7.96067928467924,
+   7.985169216208945
+  ],
+  "G": {
+   "duty_cycle": {
+    "bound": 1.4467921278185416,
+    "target": 1.6,
+    "certified": true,
+    "boxes": 13824
+   },
+   "tx_power": {
+    "bound": 1.9999717174939338,
+    "target": 2.0,
+    "certified": true,
+    "boxes": 17810
+   }
+  },
+  "L": {
+   "duty_cycle": {
+    "bound": 5.999987054486235,
+    "target": 6.0,
+    "certified": true,
+    "boxes": 66464
+   },
+   "tx_power": {
+    "bound": 6.299964013900411,
+    "target": 6.3,
+    "certified": true,
+    "boxes": 54694
+   }
+  },
+  "tail_width_G": 3.455026849835615e-08,
+  "L_with_tail": {
+   "duty_cycle": 5.999987180535344,
+   "tx_power": 6.29996413994952
+  },
+  "attained_G": {
+   "duty_cycle": 1.3306040909988326,
+   "tx_power": 1.72112338724939
+  }
+ },
+ "mec": {
+  "k_sigma": 6.0,
+  "tail": 3.946350580150778e-09,
+  "G": {
+   "offload": {
+    "bound": 3.393316639565743,
+    "target": 2.5,
+    "certified": false,
+    "boxes": 14720252
+   },
+   "cpu_freq": {
+    "bound": 2.6580242282068545,
+    "target": 2.0,
+    "certified": false,
+    "boxes": 16851144
+   }
+  },
+  "L": {
+   "offload": {
+    "bound": 53.38531550436409,
+    "target": 12.0,
+    "certified": false,
+    "boxes": 21460468
+   },
+   "cpu_freq": {
+    "bound": 38.24050359498661,
+    "target": 8.0,
+    "certified": false,
+    "boxes": 20687218
+   }
+  },
+  "attained_G": {
+   "offload": 2.081601111001294,
+   "cpu_freq": 1.5343272668963286
+  },
+  "certified": false
+ }
+}

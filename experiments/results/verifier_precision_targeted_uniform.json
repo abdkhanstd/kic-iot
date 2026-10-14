@@ -1,0 +1,26 @@
+{
+  "tag": "targeted",
+  "adapter": "models/checkpoints/qwen05b-targeted",
+  "state_source": "uniform",
+  "mean_duty_cycle": 0.49188208204403605,
+  "mean_tx_power": 0.5288610163407326,
+  "frac_steps_at_actuator_limit": 0.0,
+  "n_states": 120,
+  "n_scored": 120,
+  "n_unscorable": 0,
+  "overall_accept_rate": 1.0,
+  "base_rate_claims_correct": 1.0,
+  "confusion": {
+    "kept_correct": 120,
+    "kept_wrong": 0,
+    "rejected_correct": 0,
+    "rejected_wrong": 0
+  },
+  "precision_of_accepted": 1.0,
+  "recall_of_correct": 1.0,
+  "specificity_caught_wrong": NaN,
+  "false_rejection_rate": 0.0,
+  "reason_counts": {
+    "ok": 120
+  }
+}

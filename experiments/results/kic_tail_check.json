@@ -1,0 +1,49 @@
+{
+ "eps": 3.955791691932867e-05,
+ "Gbar": 130.21715999999998,
+ "Rbar_max": 13.326006,
+ "Gbar_print": 131.0,
+ "Rbar_print": 13.4,
+ "two_Gbar_eps": 0.010364174232864112,
+ "eps_Rbar": 0.0005300760867190042,
+ "w_extra": 0.016,
+ "summary": {
+  "shadow (KIC, KIC-pc; 4 scenarios)": {
+   "n": 1846,
+   "n_stored": 1846,
+   "weight": 1,
+   "clear": 288,
+   "below": 1558,
+   "licenses": 1846,
+   "fallbacks": 0,
+   "median_step": 0.037839194156908285,
+   "min_gain": 1.8026597397249777e-08,
+   "max_gain": 0.007628952571682087
+  },
+  "closed loop, learned (kic_sound; stands for 5 scenarios)": {
+   "n": 2258,
+   "n_stored": 2258,
+   "weight": 5,
+   "clear": 0,
+   "below": 2258,
+   "licenses": 2112,
+   "fallbacks": 146,
+   "median_step": 0.00018029830088184262,
+   "min_gain": 9.44413723754857e-10,
+   "max_gain": 1.4199007721977115e-05
+  },
+  "closed loop, spoof_blind (kic_sound; stands for 2 scenarios)": {
+   "n": 2189,
+   "n_stored": 2189,
+   "weight": 2,
+   "clear": 0,
+   "below": 2189,
+   "licenses": 1662,
+   "fallbacks": 527,
+   "median_step": 0.00018145549400716554,
+   "min_gain": 1.8401628363239238e-09,
+   "max_gain": 1.4277748645660261e-05
+  }
+ },
+ "decisions_match": true
+}

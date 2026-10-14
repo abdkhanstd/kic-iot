@@ -1,0 +1,23 @@
+{
+  "window": 10,
+  "clean_rejection_rate": 0.5166666666666667,
+  "poisoned_rejection_rate": 0.95,
+  "detection_auc": 0.9953383314109958,
+  "operating_threshold": 0.7676470588235295,
+  "tpr_at_threshold": 0.9803921568627451,
+  "fpr_at_threshold": 0.09313725490196079,
+  "clean_reason_counts": {
+    "CAUSAL_CHECK_FAILED": 124,
+    "ok": 116
+  },
+  "poisoned_reason_counts": {
+    "UNPARSEABLE": 228,
+    "ok": 12
+  },
+  "clean_out_of_range_rate": 0.0,
+  "poisoned_out_of_range_rate": 0.0,
+  "detection_auc_by_reason": 0.5,
+  "reason_operating_threshold": 0.0,
+  "reason_tpr": 0.0,
+  "reason_fpr": 0.0
+}
